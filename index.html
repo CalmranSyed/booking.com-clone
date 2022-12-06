@@ -33,30 +33,28 @@
 				<div class="hidden md:block" id="topNavMenu">
 					<ul class="md:flex justify-between ml-auto mb-2 lg:mb-0 items-center gap-2">
 						<li class="nav-item me-2">
-							<a href="#" class="nav-link border-0 currency-toggle">
+							<a href="#" class="nav-link border-0 currency-toggle square-btn">
 								INR
 							</a>
 						</li>
 						<li class="nav-item me-2">
-							<a href="#" class="nav-link border-0 country-toggle">
+							<a href="#" class="nav-link border-0 country-toggle square-btn">
 								IND
 							</a>
 						</li>
 						<li class="nav-item me-2">
-							<a class="nav-link border-0 customer-support" href="#">
+							<a class="nav-link border-0 customer-support square-btn" href="#">
 								<i class="bi bi-question-circle"></i>
 							</a>
 						</li>
 						<li class="nav-item me-2">
-							<a class="nav-link btn list-property p-2" href="#">
+							<a class="nav-link btn border border-white p-2" href="#">
 								List your property
 							</a>
 						</li>
 						<li class="nav-item auth-btns">
-							<a
-								class="text-primary text-sm bg-white p-2 cursor-pointer hover:opacity-90 register">Register</a>
-							<a class="text-primary text-sm bg-white p-2 cursor-pointer hover:opacity-90 sign-in">Sign
-								in</a>
+							<a class="auth-btn register">Register</a>
+							<a class="auth-btn sign-in">Sign in</a>
 						</li>
 					</ul>
 				</div>
@@ -65,7 +63,7 @@
 
 		<nav class="navbar bottom-nav">
 			<div class="site-container">
-				<ul class="navbar-nav flex gap-2 bottom-menu flex-row flex-wrap">
+				<ul class="navbar-nav flex gap-2 bottom-menu flex-row flex-wrap overflow-x-auto">
 					<li class="nav-item me-2">
 						<a class="nav-btn stays active" aria-current="page" href="#">
 							<i class="bi bi-house-door"></i>
@@ -107,58 +105,53 @@
 		</nav>
 	</header>
 
-	<section class="hero-area bg-primary text-white pt-16 pb-20">
+	<section class="hero-area bg-primary text-white pt-16 pb-20 bg-cover">
 		<div class="container">
-			<div class="row">
-				<div class="col-md-6">
-					<h1>
-						Find your next stay
-					</h1>
-					<p>Search deals on hotels, homes, and much more...</p>
-				</div>
-			</div>
+			<h1 class="text-5xl font-bold">Find your next stay</h1>
+			<p class="text-2xl">Search deals on hotels, homes, and much more...</p>
 		</div>
 	</section>
 
-	<section class="search-area">
+	<section class="search-area mb-12">
 		<div class="container">
-			<form action="" class="search-form flex align-items-start flex-col" name="searchForm" id="searchForm">
+			<form action="" class="search-form flex flex-col -translate-y-7" name="searchForm" id="searchForm">
 				<div class="flex flex-col md:flex-row mb-3 mx-0">
-					<div class="form-control w-[38%]">
+					<div class="form-field w-full sm:w-1/2 md:w-[38%]">
 						<input type="search" name="locationSearch" id="locationSearch"
-							class="location-search form-control search-element" placeholder="Where are you going?" />
+							class="location-search search-element" placeholder="Where are you going?" />
 					</div>
-					<div class="form-control w-[20%]">
-						<input type="text" name="stay-dates" id="stayDates" class="search-elementstayDates form-control"
+					<div class="form-field w-full sm:w-1/2 md:w-[20%]">
+						<input type="text" name="stay-dates" id="stayDates" class="search-element stayDates"
 							placeholder="Check in - Check out?" />
 					</div>
-					<div class="form-control w-[30%]">
+					<div class="form-field w-full sm:w-1/2 md:w-[30%]">
 						<select name="guestCount" id="guestCount" class="search-element guest-count form-select">
 							<option value="">1 adult - 0 children - 1 room</option>
 							<option value="">2 adult - 0 children - 1 room</option>
 							<option value="">2 adult - 0 children - 2 room</option>
 						</select>
 					</div>
-					<div class="form-submit w-[12%]">
-						<button type="submit" class="search-elementbtn rounded-0 btn-primary w-100 h-100">
+					<div class="form-field w-full sm:w-1/2 md:w-[12%]">
+						<button type="submit"
+							class="bg-blue-700 btn rounded-0 primary-btn h-full w-full text-xl font-normal">
 							Search
 						</button>
 					</div>
 				</div>
 
-				<div class="form-check">
-					<input class="form-check-input" type="checkbox" value="" id="workStay" name="workStay" />
-					<label class="form-check-label" for="workStay">
+				<div class="form-check flex items-center">
+					<input class="form-check-input h-5 w-5" type="checkbox" value="" id="workStay" name="workStay" />
+					<label class="form-check-label ml-2" for="workStay">
 						I'm travelling for work
 					</label>
 				</div>
 			</form>
 
-			<div class="covid-info d-flex align-items-center justify-content-start rounded-1 p-3">
-				<div class="icon">
+			<div class="covid-info flex items-center justify-start rounded-sm p-3 gap-3 border border-[#e7e7e7]">
+				<div class="icon w-10 h-10 flex items-center justify-center bg-[#fff0e0] text-[#923e01] shrink-0">
 					<i class="bi bi-info-circle"></i>
 				</div>
-				<p class="info mb-0">
+				<p class="info mb-0 h-auto">
 					Get the advice you need. Check the latest COVID-19 restrictions
 					before you travel. <a href="#">Learn more</a>
 				</p>
@@ -166,10 +159,10 @@
 		</div>
 	</section>
 
-	<section class="offers-area py-4">
-		<div class="container">
+	<section class="offers-area">
+		<div class="site-container">
 			<h4 class="title fw-bold">Offers</h4>
-			<p class="subtitle">Promotions, deals and special offers for you</p>
+			<p class="subtitle ">Promotions, deals and special offers for you</p>
 
 			<div class="locations">
 				<div class="locations-carousel-wrap position-relative mb-3">
@@ -187,7 +180,7 @@
 											Tick one more destination off your wishlist
 										</p>
 										<div class="card-btn">
-											<a href="#" class="btn btn-primary"> Explore deals </a>
+											<a href="#" class="btn primary-btn carousel-btn"> Explore deals </a>
 										</div>
 									</div>
 								</div>
@@ -205,7 +198,7 @@
 											Tick one more destination off your wishlist
 										</p>
 										<div class="card-btn">
-											<a href="#" class="btn btn-primary"> Explore deals </a>
+											<a href="#" class="btn primary-btn carousel-btn"> Explore deals </a>
 										</div>
 									</div>
 								</div>
@@ -223,7 +216,7 @@
 											Tick one more destination off your wishlist
 										</p>
 										<div class="card-btn">
-											<a href="#" class="btn btn-primary"> Explore deals </a>
+											<a href="#" class="btn primary-btn carousel-btn"> Explore deals </a>
 										</div>
 									</div>
 								</div>
@@ -242,7 +235,7 @@
 				<div class="locations-grid">
 					<div class="row">
 						<div class="col-12 col-sm-6 col-md-6">
-							<div class="card overflow-hidden">
+							<div class="grid-card rounded-none p-[1px]">
 								<a href="#">
 									<img src="https://cf.bstatic.com/xdata/images/city/540x270/914506.webp?k=a46df18bd0d60ea0ec642755b02fb6309c48e591ac0dc158eafc2c2650de71c8&o="
 										class="card-img" alt="..." />
@@ -257,7 +250,7 @@
 						</div>
 
 						<div class="col-12 col-sm-6 col-md-6">
-							<div class="card overflow-hidden">
+							<div class="grid-card rounded-none p-[1px]">
 								<a href="#">
 									<img src="https://cf.bstatic.com/xdata/images/city/540x270/917671.webp?k=85a39c547209920acb72a91427361fbf530053b853b679010d75d1f5e47eacdb&o="
 										class="card-img" alt="..." />
@@ -272,7 +265,7 @@
 						</div>
 
 						<div class="col-12 col-sm-6 col-md-4">
-							<div class="card overflow-hidden">
+							<div class="grid-card rounded-none p-[1px]">
 								<a href="#">
 									<img src="https://cf.bstatic.com/xdata/images/city/540x270/835269.webp?k=d413877e2d120918ecab1c13290fbffa76e1a06f0dbf87df3cdd0cf882059964&o="
 										class="card-img" alt="..." />
@@ -287,7 +280,7 @@
 						</div>
 
 						<div class="col-12 col-sm-6 col-md-4">
-							<div class="card overflow-hidden">
+							<div class="grid-card rounded-none p-[1px]">
 								<a href="#">
 									<img src="https://cf.bstatic.com/xdata/images/city/540x270/636261.webp?k=aff7c2ac625c3a8dddd1f96e72a6258282d098882e8b6e6f9c1636e82b14df97&o="
 										class="card-img" alt="..." />
@@ -302,7 +295,7 @@
 						</div>
 
 						<div class="col-12 col-sm-6 col-md-4">
-							<div class="card overflow-hidden">
+							<div class="grid-card rounded-none p-[1px]">
 								<a href="#">
 									<img src="https://cf.bstatic.com/xdata/images/city/540x270/636261.webp?k=aff7c2ac625c3a8dddd1f96e72a6258282d098882e8b6e6f9c1636e82b14df97&o="
 										class="card-img" alt="..." />
@@ -323,7 +316,7 @@
 
 	<!-- explore -->
 	<section class="explore-area py-4">
-		<div class="container">
+		<div class="site-container">
 			<h4 class="title fw-bold">Explore India</h4>
 			<p class="subtitle">These popular destinations have a lot to offer</p>
 
@@ -454,7 +447,7 @@
 
 	<!-- properties -->
 	<section class="property-area py-4">
-		<div class="container">
+		<div class="site-container">
 			<h4 class="title fw-bold mb-3">Browse by property type</h4>
 
 			<div class="property-carousel-wrap position-relative">
@@ -584,7 +577,7 @@
 
 	<!-- trip type -->
 	<section class="trip-type-area py-4">
-		<div class="container">
+		<div class="site-container">
 			<h4 class="title fw-bold">Quick and easy trip planner</h4>
 			<p class="subtitle">
 				Pick a vibe and explore the top destinations in India
@@ -1251,7 +1244,7 @@
 
 	<!-- top rated -->
 	<section class="top-rated-area py-4">
-		<div class="container">
+		<div class="site-container">
 			<h4 class="title fw-bold">Stay at our top unique properties</h4>
 			<p class="subtitle">
 				From castles and villas to boats and igloos, we've got it all
@@ -1484,13 +1477,13 @@
 
 	<!-- blog -->
 	<section class="blog-area py-4">
-		<div class="container">
+		<div class="site-container">
 			<h4 class="title fw-bold mb-3">Get inspiration for your next trip</h4>
 
 			<div class="blogs">
 				<div class="row">
 					<div class="col-12 col-sm-6 col-md-4">
-						<div class="card rounded-1 overflow-hidden">
+						<div class="grid-card rounded-1">
 							<a href="#" class="text-light">
 								<img src="https://cf.bstatic.com/xdata/images/city/540x270/835269.webp?k=d413877e2d120918ecab1c13290fbffa76e1a06f0dbf87df3cdd0cf882059964&o="
 									class="card-img" alt="..." />
@@ -1508,7 +1501,7 @@
 					</div>
 
 					<div class="col-12 col-sm-6 col-md-4">
-						<div class="card rounded-1 overflow-hidden">
+						<div class="grid-card rounded-1">
 							<a href="#" class="text-light">
 								<img src="https://cf.bstatic.com/xdata/images/xphoto/540x405/180173480.webp?k=6ea6aa39bf8daaf82862915b72888bcf8ce68f0641053f336fcdd9d842b29d9d&o="
 									class="card-img" alt="..." />
@@ -1526,7 +1519,7 @@
 					</div>
 
 					<div class="col-12 col-sm-6 col-md-4">
-						<div class="card rounded-1 overflow-hidden">
+						<div class="grid-card rounded-1">
 							<a href="#" class="text-light">
 								<img src="https://cf.bstatic.com/xdata/images/xphoto/540x405/179387104.webp?k=3c39d24e157347fdd5f7784bca95a09c8c27627b97ac58f70e5965dabc70f2d2&o="
 									class="card-img" alt="..." />
@@ -1544,7 +1537,7 @@
 					</div>
 
 					<div class="col-12 col-sm-6">
-						<div class="card rounded-1 overflow-hidden">
+						<div class="grid-card rounded-1">
 							<a href="#" class="text-light">
 								<img src="https://cf.bstatic.com/xdata/images/xphoto/540x405/178896679.webp?k=21164af35fafc549296411e1e8d912043e1e5b4bff25b597e573df634caec7d9&o="
 									class="card-img" alt="..." />
@@ -1562,7 +1555,7 @@
 					</div>
 
 					<div class="col-12 col-sm-6">
-						<div class="card rounded-1 overflow-hidden">
+						<div class="grid-card rounded-1">
 							<a href="#" class="text-light">
 								<img src="https://cf.bstatic.com/xdata/images/xphoto/540x405/177969876.webp?k=86fa40fd3854833d1454959cda97f034740bc5013f760c637fb12abe821790f3&o="
 									class="card-img" alt="..." />
@@ -1585,7 +1578,7 @@
 
 	<!-- communities -->
 	<section class="communities-area py-4">
-		<div class="container">
+		<div class="site-container">
 			<h4 class="title fw-bold mb-3">Connect with other travellers</h4>
 
 			<div class="communities">
@@ -1652,7 +1645,7 @@
 
 	<!-- CTA -->
 	<section class="cta py-4">
-		<div class="container">
+		<div class="site-container">
 			<div class="card rounded-1">
 				<img src="https://cf.bstatic.com/static/img/genius-banner-world-bg/2b5cdbad7b92073bc396b8b59d0bb421b3a01cba.png"
 					alt="..." />
@@ -1680,7 +1673,7 @@
 
 	<!-- destinations -->
 	<section class="destinations py-4">
-		<div class="container">
+		<div class="site-container">
 			<h4 class="title fw-bold mb-3">Destinations we love</h4>
 
 			<ul class="nav nav-pills mb-3" id="destination-categories" role="tablist">
@@ -2207,14 +2200,14 @@
 
 	<!-- newsletter -->
 	<section class="newsletter text-center">
-		<div class="container py-5 px-5 px-md-3">
+		<div class="site-container py-5 px-5 px-md-3">
 			<p class="title mb-0">Save time, save money!</p>
 			<p class="subtitle">Sign up and we'll send the best deals to</p>
 
 			<form action="" id="newsletterForm" class="newsletter-form">
 				<div class="form-group d-flex flex-column flex-md-row align-items-center justify-content-center">
 					<input type="email" name="emailID" id="emailID" class="form-control" placeholder="Your email" />
-					<button class="btn btn-primary fw-normal" type="submit">
+					<button class="btn primary-btn fw-normal" type="submit">
 						Subscribe
 					</button>
 				</div>
@@ -2229,7 +2222,7 @@
 				<a href="" class="btn">List your property</a>
 			</div>
 			<div class="top-footer-menu">
-				<div class="container">
+				<div class="site-container">
 					<ul
 						class="top-footer-links ps-0 list-unstyled d-flex align-items-center justify-content-start flex-wrap">
 						<li>
@@ -2256,7 +2249,7 @@
 		</div>
 
 		<div class="main-footer  mb-4">
-			<div class="container">
+			<div class="site-container">
 				<div class="main-footer-menu">
 					<div class="row row-cols-lg-5">
 						<div class="col-6 col-md-4 col-lg">
@@ -2393,7 +2386,7 @@
 		</div>
 
 		<div class="bottom-footer text-center">
-			<div class="container">
+			<div class="site-container">
 				<p class="copyright-text mb-4">
 					Copyright © 1996–2022 Booking.com™. All rights reserved.
 				</p>
@@ -2430,11 +2423,7 @@
 			</div>
 		</div>
 	</footer>
-	<!-- JavaScript Bundle with Popper -->
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
-		integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
-		crossorigin="anonymous"></script>
-
+	<script src="./scripts/jquery.min.js" type="module"></script>
 	<!-- swiper js  -->
 	<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 
