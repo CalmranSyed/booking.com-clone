@@ -63,40 +63,40 @@
 
 		<nav class="navbar bottom-nav">
 			<div class="site-container">
-				<ul class="navbar-nav flex gap-2 bottom-menu flex-row flex-wrap overflow-x-auto">
-					<li class="nav-item me-2">
-						<a class="nav-btn stays active" aria-current="page" href="#">
-							<i class="bi bi-house-door"></i>
+				<ul class="navbar-nav flex gap-2 bottom-menu flex-row flex-wrap overflow-x-auto -mx-[15px]">
+					<li class="nav-item active me-2 flex-grow-0 flex-shrink-0 basis-auto">
+						<a class="nav-btn stays" aria-current="page" href="#">
+							<i class="bi bi-house-door text-lg"></i>
 							<span class="flex-shrink-0">Stays</span>
 						</a>
 					</li>
-					<li class="nav-item me-2">
+					<li class="nav-item me-2 flex-grow-0 flex-shrink-0 basis-auto">
 						<a class="nav-btn flights" href="#">
-							<i class="bi bi-airplane"></i>
+							<i class="bi bi-airplane text-lg"></i>
 							<span class="flex-shrink-0">Flights</span>
 						</a>
 					</li>
-					<li class="nav-item me-2">
+					<li class="nav-item me-2 flex-grow-0 flex-shrink-0 basis-auto">
 						<a class="nav-btn flight-hotel" href="#">
-							<i class="bi bi-globe-americas"></i>
+							<i class="bi bi-globe-americas text-lg"></i>
 							<span class="flex-shrink-0">Flight + Hotel</span>
 						</a>
 					</li>
-					<li class="nav-item me-2">
+					<li class="nav-item me-2 flex-grow-0 flex-shrink-0 basis-auto">
 						<a class="nav-btn car-rentals" href="#">
-							<i class="bi bi-car-front"></i>
+							<i class="bi bi-car-front text-lg"></i>
 							<span class="flex-shrink-0">Car rentals</span>
 						</a>
 					</li>
-					<li class="nav-item me-2">
+					<li class="nav-item me-2 flex-grow-0 flex-shrink-0 basis-auto">
 						<a class="nav-btn attractions" href="#">
-							<i class="bi bi-cup-straw"></i>
+							<i class="bi bi-cup-straw text-lg"></i>
 							<span class="flex-shrink-0">Attractions</span>
 						</a>
 					</li>
-					<li class="nav-item">
+					<li class="nav-item flex-grow-0 flex-shrink-0 basis-auto">
 						<a class="nav-btn airport-taxis" href="#">
-							<i class="bi bi-taxi-front"></i>
+							<i class="bi bi-taxi-front text-lg"></i>
 							<span class="flex-shrink-0">Airport taxis</span>
 						</a>
 					</li>
@@ -106,16 +106,16 @@
 	</header>
 
 	<section class="hero-area bg-primary text-white pt-16 pb-20 bg-cover">
-		<div class="container">
+		<div class="site-container">
 			<h1 class="text-5xl font-bold">Find your next stay</h1>
 			<p class="text-2xl">Search deals on hotels, homes, and much more...</p>
 		</div>
 	</section>
 
 	<section class="search-area mb-12">
-		<div class="container">
+		<div class="site-container">
 			<form action="" class="search-form flex flex-col -translate-y-7" name="searchForm" id="searchForm">
-				<div class="flex flex-col md:flex-row mb-3 mx-0">
+				<div class="flex flex-row flex-wrap mb-3 mx-0">
 					<div class="form-field w-full sm:w-1/2 md:w-[38%]">
 						<input type="search" name="locationSearch" id="locationSearch"
 							class="location-search search-element" placeholder="Where are you going?" />
@@ -159,14 +159,14 @@
 		</div>
 	</section>
 
-	<section class="offers-area">
+	<section class="offers-area mb-8">
 		<div class="site-container">
-			<h4 class="title fw-bold">Offers</h4>
+			<h4 class="title font-bold">Offers</h4>
 			<p class="subtitle ">Promotions, deals and special offers for you</p>
 
-			<div class="locations">
-				<div class="locations-carousel-wrap position-relative mb-3">
-					<div class="locations-carousel swiper">
+			<div class="	s">
+				<div class="offers-carousel-wrap relative">
+					<div class="offers-carousel swiper">
 						<div class="swiper-wrapper">
 							<div class="swiper-slide">
 								<div class="location card rounded-3 border-0">
@@ -224,90 +224,11 @@
 						</div>
 					</div>
 					<!-- navigation -->
-					<div class="swiper-button-prev start-0 translate-middle-x">
+					<div class="swiper-button swiper-button-prev start-0 translate-middle-x">
 						<i class="bi bi-chevron-left"></i>
 					</div>
-					<div class="swiper-button-next start-100 translate-middle-x">
+					<div class="swiper-button swiper-button-next start-100 translate-middle-x">
 						<i class="bi bi-chevron-right"></i>
-					</div>
-				</div>
-
-				<div class="locations-grid">
-					<div class="row">
-						<div class="col-12 col-sm-6 col-md-6">
-							<div class="grid-card rounded-none p-[1px]">
-								<a href="#">
-									<img src="https://cf.bstatic.com/xdata/images/city/540x270/914506.webp?k=a46df18bd0d60ea0ec642755b02fb6309c48e591ac0dc158eafc2c2650de71c8&o="
-										class="card-img" alt="..." />
-									<div class="card-img-overlay">
-										<h3 class="card-title text-white fw-bold">
-											<span class="place">Somerton</span>
-											<span class="country">UK</span>
-										</h3>
-									</div>
-								</a>
-							</div>
-						</div>
-
-						<div class="col-12 col-sm-6 col-md-6">
-							<div class="grid-card rounded-none p-[1px]">
-								<a href="#">
-									<img src="https://cf.bstatic.com/xdata/images/city/540x270/917671.webp?k=85a39c547209920acb72a91427361fbf530053b853b679010d75d1f5e47eacdb&o="
-										class="card-img" alt="..." />
-									<div class="card-img-overlay">
-										<h3 class="card-title text-white fw-bold">
-											<span class="place">Gravesend</span>
-											<span class="country">UK</span>
-										</h3>
-									</div>
-								</a>
-							</div>
-						</div>
-
-						<div class="col-12 col-sm-6 col-md-4">
-							<div class="grid-card rounded-none p-[1px]">
-								<a href="#">
-									<img src="https://cf.bstatic.com/xdata/images/city/540x270/835269.webp?k=d413877e2d120918ecab1c13290fbffa76e1a06f0dbf87df3cdd0cf882059964&o="
-										class="card-img" alt="..." />
-									<div class="card-img-overlay">
-										<h3 class="card-title text-white fw-bold">
-											<span class="place">Redruth</span>
-											<span class="country">UK</span>
-										</h3>
-									</div>
-								</a>
-							</div>
-						</div>
-
-						<div class="col-12 col-sm-6 col-md-4">
-							<div class="grid-card rounded-none p-[1px]">
-								<a href="#">
-									<img src="https://cf.bstatic.com/xdata/images/city/540x270/636261.webp?k=aff7c2ac625c3a8dddd1f96e72a6258282d098882e8b6e6f9c1636e82b14df97&o="
-										class="card-img" alt="..." />
-									<div class="card-img-overlay">
-										<h3 class="card-title text-white fw-bold">
-											<span class="place">Wakefield</span>
-											<span class="country">UK</span>
-										</h3>
-									</div>
-								</a>
-							</div>
-						</div>
-
-						<div class="col-12 col-sm-6 col-md-4">
-							<div class="grid-card rounded-none p-[1px]">
-								<a href="#">
-									<img src="https://cf.bstatic.com/xdata/images/city/540x270/636261.webp?k=aff7c2ac625c3a8dddd1f96e72a6258282d098882e8b6e6f9c1636e82b14df97&o="
-										class="card-img" alt="..." />
-									<div class="card-img-overlay">
-										<h3 class="card-title text-white fw-bold">
-											<span class="place">Truro</span>
-											<span class="country">UK</span>
-										</h3>
-									</div>
-								</a>
-							</div>
-						</div>
 					</div>
 				</div>
 			</div>
@@ -315,260 +236,358 @@
 	</section>
 
 	<!-- explore -->
-	<section class="explore-area py-4">
+	<section class="explore-area mb-8">
 		<div class="site-container">
-			<h4 class="title fw-bold">Explore India</h4>
+			<h4 class="title font-bold">Explore India</h4>
 			<p class="subtitle">These popular destinations have a lot to offer</p>
 
-			<div class="explore-carousel-wrap position-relative">
+			<div class="explore-carousel-wrap relative">
 				<div class="explore-carousel swiper">
 					<div class="swiper-wrapper">
 						<div class="swiper-slide">
-							<div class="location-thumbnail ratio ratio-1x1 mb-3">
-								<img src="https://cf.bstatic.com/xdata/images/region/square250/49646.webp?k=b7f38878b9164ee38e0b99c4d4646dbea76b7bf4add8464b1aa75e4c9d0efc6e&o="
+							<div class="location-thumbnail mb-3">
+								<img class="w-full aspect-video  sm:aspect-square object-cover"
+									src="https://cf.bstatic.com/xdata/images/region/square250/49646.webp?k=b7f38878b9164ee38e0b99c4d4646dbea76b7bf4add8464b1aa75e4c9d0efc6e&o="
 									alt="" />
 							</div>
-							<div class="location-meta d-flex flex-column align-items-start justify-content-start">
-								<h6 class="location-name fw-bold">Goa</h6>
-								<span class="property-count">5,225 properties</span>
+							<div class="location-meta flex flex-col items-start justify-content-start">
+								<h6 class="location-name font-bold">Goa</h6>
+								<span class="propery-count text-sm">5,225 properties</span>
 							</div>
 						</div>
 
 						<div class="swiper-slide">
-							<div class="location-thumbnail ratio ratio-1x1 mb-3">
-								<img src="https://cf.bstatic.com/xdata/images/region/square250/49646.webp?k=b7f38878b9164ee38e0b99c4d4646dbea76b7bf4add8464b1aa75e4c9d0efc6e&o="
+							<div class="location-thumbnail mb-3">
+								<img class="w-full aspect-video  sm:aspect-square object-cover"
+									src="https://cf.bstatic.com/xdata/images/region/square250/49646.webp?k=b7f38878b9164ee38e0b99c4d4646dbea76b7bf4add8464b1aa75e4c9d0efc6e&o="
 									alt="" />
 							</div>
-							<div class="location-meta d-flex flex-column align-items-start justify-content-start">
-								<h6 class="location-name fw-bold">Goa</h6>
-								<span class="property-count">5,225 properties</span>
+							<div class="location-meta flex flex-col items-start justify-content-start">
+								<h6 class="location-name font-bold">Goa</h6>
+								<span class="propery-count text-sm">5,225 properties</span>
 							</div>
 						</div>
 
 						<div class="swiper-slide">
-							<div class="location-thumbnail ratio ratio-1x1 mb-3">
-								<img src="https://cf.bstatic.com/xdata/images/region/square250/49646.webp?k=b7f38878b9164ee38e0b99c4d4646dbea76b7bf4add8464b1aa75e4c9d0efc6e&o="
+							<div class="location-thumbnail mb-3">
+								<img class="w-full aspect-video  sm:aspect-square object-cover"
+									src="https://cf.bstatic.com/xdata/images/region/square250/49646.webp?k=b7f38878b9164ee38e0b99c4d4646dbea76b7bf4add8464b1aa75e4c9d0efc6e&o="
 									alt="" />
 							</div>
-							<div class="location-meta d-flex flex-column align-items-start justify-content-start">
-								<h6 class="location-name fw-bold">Goa</h6>
-								<span class="property-count">5,225 properties</span>
+							<div class="location-meta flex flex-col items-start justify-content-start">
+								<h6 class="location-name font-bold">Goa</h6>
+								<span class="propery-count text-sm">5,225 properties</span>
 							</div>
 						</div>
 
 						<div class="swiper-slide">
-							<div class="location-thumbnail ratio ratio-1x1 mb-3">
-								<img src="https://cf.bstatic.com/xdata/images/region/square250/49646.webp?k=b7f38878b9164ee38e0b99c4d4646dbea76b7bf4add8464b1aa75e4c9d0efc6e&o="
+							<div class="location-thumbnail mb-3">
+								<img class="w-full aspect-video  sm:aspect-square object-cover"
+									src="https://cf.bstatic.com/xdata/images/region/square250/49646.webp?k=b7f38878b9164ee38e0b99c4d4646dbea76b7bf4add8464b1aa75e4c9d0efc6e&o="
 									alt="" />
 							</div>
-							<div class="location-meta d-flex flex-column align-items-start justify-content-start">
-								<h6 class="location-name fw-bold">Goa</h6>
-								<span class="property-count">5,225 properties</span>
+							<div class="location-meta flex flex-col items-start justify-content-start">
+								<h6 class="location-name font-bold">Goa</h6>
+								<span class="propery-count text-sm">5,225 properties</span>
 							</div>
 						</div>
 
 						<div class="swiper-slide">
-							<div class="location-thumbnail ratio ratio-1x1 mb-3">
-								<img src="https://cf.bstatic.com/xdata/images/region/square250/49646.webp?k=b7f38878b9164ee38e0b99c4d4646dbea76b7bf4add8464b1aa75e4c9d0efc6e&o="
+							<div class="location-thumbnail mb-3">
+								<img class="w-full aspect-video  sm:aspect-square object-cover"
+									src="https://cf.bstatic.com/xdata/images/region/square250/49646.webp?k=b7f38878b9164ee38e0b99c4d4646dbea76b7bf4add8464b1aa75e4c9d0efc6e&o="
 									alt="" />
 							</div>
-							<div class="location-meta d-flex flex-column align-items-start justify-content-start">
-								<h6 class="location-name fw-bold">Goa</h6>
-								<span class="property-count">5,225 properties</span>
+							<div class="location-meta flex flex-col items-start justify-content-start">
+								<h6 class="location-name font-bold">Goa</h6>
+								<span class="propery-count text-sm">5,225 properties</span>
 							</div>
 						</div>
 
 						<div class="swiper-slide">
-							<div class="location-thumbnail ratio ratio-1x1 mb-3">
-								<img src="https://cf.bstatic.com/xdata/images/region/square250/49646.webp?k=b7f38878b9164ee38e0b99c4d4646dbea76b7bf4add8464b1aa75e4c9d0efc6e&o="
+							<div class="location-thumbnail mb-3">
+								<img class="w-full aspect-video  sm:aspect-square object-cover"
+									src="https://cf.bstatic.com/xdata/images/region/square250/49646.webp?k=b7f38878b9164ee38e0b99c4d4646dbea76b7bf4add8464b1aa75e4c9d0efc6e&o="
 									alt="" />
 							</div>
-							<div class="location-meta d-flex flex-column align-items-start justify-content-start">
-								<h6 class="location-name fw-bold">Goa</h6>
-								<span class="property-count">5,225 properties</span>
+							<div class="location-meta flex flex-col items-start justify-content-start">
+								<h6 class="location-name font-bold">Goa</h6>
+								<span class="propery-count text-sm">5,225 properties</span>
 							</div>
 						</div>
 
 						<div class="swiper-slide">
-							<div class="location-thumbnail ratio ratio-1x1 mb-3">
-								<img src="https://cf.bstatic.com/xdata/images/region/square250/49646.webp?k=b7f38878b9164ee38e0b99c4d4646dbea76b7bf4add8464b1aa75e4c9d0efc6e&o="
+							<div class="location-thumbnail mb-3">
+								<img class="w-full aspect-video  sm:aspect-square object-cover"
+									src="https://cf.bstatic.com/xdata/images/region/square250/49646.webp?k=b7f38878b9164ee38e0b99c4d4646dbea76b7bf4add8464b1aa75e4c9d0efc6e&o="
 									alt="" />
 							</div>
-							<div class="location-meta d-flex flex-column align-items-start justify-content-start">
-								<h6 class="location-name fw-bold">Goa</h6>
-								<span class="property-count">5,225 properties</span>
+							<div class="location-meta flex flex-col items-start justify-content-start">
+								<h6 class="location-name font-bold">Goa</h6>
+								<span class="propery-count text-sm">5,225 properties</span>
 							</div>
 						</div>
 
 						<div class="swiper-slide">
-							<div class="location-thumbnail ratio ratio-1x1 mb-3">
-								<img src="https://cf.bstatic.com/xdata/images/region/square250/49646.webp?k=b7f38878b9164ee38e0b99c4d4646dbea76b7bf4add8464b1aa75e4c9d0efc6e&o="
+							<div class="location-thumbnail mb-3">
+								<img class="w-full aspect-video  sm:aspect-square object-cover"
+									src="https://cf.bstatic.com/xdata/images/region/square250/49646.webp?k=b7f38878b9164ee38e0b99c4d4646dbea76b7bf4add8464b1aa75e4c9d0efc6e&o="
 									alt="" />
 							</div>
-							<div class="location-meta d-flex flex-column align-items-start justify-content-start">
-								<h6 class="location-name fw-bold">Goa</h6>
-								<span class="property-count">5,225 properties</span>
+							<div class="location-meta flex flex-col items-start justify-content-start">
+								<h6 class="location-name font-bold">Goa</h6>
+								<span class="propery-count text-sm">5,225 properties</span>
 							</div>
 						</div>
 
 						<div class="swiper-slide">
-							<div class="location-thumbnail ratio ratio-1x1 mb-3">
-								<img src="https://cf.bstatic.com/xdata/images/region/square250/49646.webp?k=b7f38878b9164ee38e0b99c4d4646dbea76b7bf4add8464b1aa75e4c9d0efc6e&o="
+							<div class="location-thumbnail mb-3">
+								<img class="w-full aspect-video  sm:aspect-square object-cover"
+									src="https://cf.bstatic.com/xdata/images/region/square250/49646.webp?k=b7f38878b9164ee38e0b99c4d4646dbea76b7bf4add8464b1aa75e4c9d0efc6e&o="
 									alt="" />
 							</div>
-							<div class="location-meta d-flex flex-column align-items-start justify-content-start">
-								<h6 class="location-name fw-bold">Goa</h6>
-								<span class="property-count">5,225 properties</span>
+							<div class="location-meta flex flex-col items-start justify-content-start">
+								<h6 class="location-name font-bold">Goa</h6>
+								<span class="propery-count text-sm">5,225 properties</span>
 							</div>
 						</div>
 
 						<div class="swiper-slide">
-							<div class="location-thumbnail ratio ratio-1x1 mb-3">
-								<img src="https://cf.bstatic.com/xdata/images/region/square250/49646.webp?k=b7f38878b9164ee38e0b99c4d4646dbea76b7bf4add8464b1aa75e4c9d0efc6e&o="
+							<div class="location-thumbnail mb-3">
+								<img class="w-full aspect-video  sm:aspect-square object-cover"
+									src="https://cf.bstatic.com/xdata/images/region/square250/49646.webp?k=b7f38878b9164ee38e0b99c4d4646dbea76b7bf4add8464b1aa75e4c9d0efc6e&o="
 									alt="" />
 							</div>
-							<div class="location-meta d-flex flex-column align-items-start justify-content-start">
-								<h6 class="location-name fw-bold">Goa</h6>
-								<span class="property-count">5,225 properties</span>
+							<div class="location-meta flex flex-col items-start justify-content-start">
+								<h6 class="location-name font-bold">Goa</h6>
+								<span class="propery-count text-sm">5,225 properties</span>
 							</div>
 						</div>
 					</div>
 				</div>
+
 				<!-- navigation -->
-				<div class="swiper-button-prev start-0 translate-middle-x">
+				<div class="swiper-button swiper-button-prev start-0 translate-middle-x">
 					<i class="bi bi-chevron-left"></i>
 				</div>
-				<div class="swiper-button-next start-100 translate-middle-x">
+
+				<div class="swiper-button swiper-button-next start-100 translate-middle-x">
 					<i class="bi bi-chevron-right"></i>
+				</div>
+			</div>
+
+			<div class="locations-grid mt-7">
+				<div class="locations columns-1 md:columns-2 gap-2 mb-2">
+					<div class="location mb-2 md:mb-0 w-full">
+						<div class="grid-card ">
+							<img class="w-full object-cover h-36 md:h-48 lg:h-72"
+								src="https://cf.bstatic.com/xdata/images/city/540x270/914506.webp?k=a46df18bd0d60ea0ec642755b02fb6309c48e591ac0dc158eafc2c2650de71c8&o="
+								class="card-img" alt="..." />
+							<div class="card-img-overlay">
+								<strong class="card-title text-white font-bold">
+									<span class="place">Somerton</span>
+									<span class="country">UK</span>
+								</strong>
+							</div>
+						</div>
+					</div>
+
+					<div class="location w-full">
+						<div class="grid-card ">
+							<img class="w-full object-cover h-36 md:h-48 lg:h-72"
+								src="https://cf.bstatic.com/xdata/images/city/540x270/917671.webp?k=85a39c547209920acb72a91427361fbf530053b853b679010d75d1f5e47eacdb&o="
+								class="card-img" alt="..." />
+							<div class="card-img-overlay">
+								<strong class="card-title text-white font-bold">
+									<span class="place">Gravesend</span>
+									<span class="country">UK</span>
+								</strong>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="locations columns-1 md:columns-3 gap-2">
+					<div class="location mb-2 lg:mb-0">
+						<div class="grid-card ">
+							<img class="w-full object-cover h-36 md:h-48 lg:h-72"
+								src="https://cf.bstatic.com/xdata/images/city/540x270/835269.webp?k=d413877e2d120918ecab1c13290fbffa76e1a06f0dbf87df3cdd0cf882059964&o="
+								class="card-img" alt="..." />
+							<div class="card-img-overlay">
+								<h3 class="card-title text-white font-bold">
+									<span class="place">Redruth</span>
+									<span class="country">UK</span>
+								</h3>
+							</div>
+						</div>
+					</div>
+
+					<div class="location mb-2 lg:mb-0">
+						<div class="grid-card ">
+							<img class="w-full object-cover h-36 md:h-48 lg:h-72"
+								src="https://cf.bstatic.com/xdata/images/city/540x270/636261.webp?k=aff7c2ac625c3a8dddd1f96e72a6258282d098882e8b6e6f9c1636e82b14df97&o="
+								class="card-img" alt="..." />
+							<div class="card-img-overlay">
+								<h3 class="card-title text-white font-bold">
+									<span class="place">Wakefield</span>
+									<span class="country">UK</span>
+								</h3>
+							</div>
+						</div>
+					</div>
+
+					<div class="location">
+						<div class="grid-card ">
+							<img class="w-full object-cover h-36 md:h-48 lg:h-72"
+								src="https://cf.bstatic.com/xdata/images/city/540x270/636261.webp?k=aff7c2ac625c3a8dddd1f96e72a6258282d098882e8b6e6f9c1636e82b14df97&o="
+								class="card-img" alt="..." />
+							<div class="card-img-overlay">
+								<h3 class="card-title text-white font-bold">
+									<span class="place">Truro</span>
+									<span class="country">UK</span>
+								</h3>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
 	</section>
 
 	<!-- properties -->
-	<section class="property-area py-4">
+	<section class="property-area mb-8">
 		<div class="site-container">
-			<h4 class="title fw-bold mb-3">Browse by property type</h4>
+			<h4 class="title font-bold mb-4">Browse by property type</h4>
 
-			<div class="property-carousel-wrap position-relative">
+			<div class="property-carousel-wrap relative">
 				<div class="property-carousel swiper">
 					<div class="swiper-wrapper">
 						<div class="swiper-slide">
-							<div class="property-thumbnail ratio ratio-4x3 mb-3">
-								<img src="https://q-xx.bstatic.com/xdata/images/xphoto/300x240/45450097.jpeg?k=eac0f917a53dc395bd379fef8c191e7d5e37012b68e60232e4f6bba2a2901b7a&o="
+							<div class="property-thumbnail mb-3">
+								<img class="w-full aspect-4/3"
+									src="https://q-xx.bstatic.com/xdata/images/xphoto/300x240/45450097.jpeg?k=eac0f917a53dc395bd379fef8c191e7d5e37012b68e60232e4f6bba2a2901b7a&o="
 									alt="" />
 							</div>
-							<div class="property-meta d-flex flex-column align-items-start justify-content-start">
-								<h6 class="property-type fw-bold">Luxury Tents</h6>
-								<span class="property-count">4,157 luxury tents</span>
+							<div class="property-meta flex flex-col items-start justify-content-start">
+								<h6 class="property-type font-bold">Luxury Tents</h6>
+								<span class="propery-count text-sm">4,157 luxury tents</span>
 							</div>
 						</div>
 
 						<div class="swiper-slide">
-							<div class="property-thumbnail ratio ratio-4x3 mb-3">
-								<img src="https://q-xx.bstatic.com/xdata/images/xphoto/300x240/45450097.jpeg?k=eac0f917a53dc395bd379fef8c191e7d5e37012b68e60232e4f6bba2a2901b7a&o="
+							<div class="property-thumbnail mb-3">
+								<img class="w-full aspect-4/3"
+									src="https://q-xx.bstatic.com/xdata/images/xphoto/300x240/45450097.jpeg?k=eac0f917a53dc395bd379fef8c191e7d5e37012b68e60232e4f6bba2a2901b7a&o="
 									alt="" />
 							</div>
-							<div class="property-meta d-flex flex-column align-items-start justify-content-start">
-								<h6 class="property-type fw-bold">Luxury Tents</h6>
-								<span class="property-count">4,157 luxury tents</span>
+							<div class="property-meta flex flex-col items-start justify-content-start">
+								<h6 class="property-type font-bold">Luxury Tents</h6>
+								<span class="propery-count text-sm">4,157 luxury tents</span>
 							</div>
 						</div>
 
 						<div class="swiper-slide">
-							<div class="property-thumbnail ratio ratio-4x3 mb-3">
-								<img src="https://q-xx.bstatic.com/xdata/images/xphoto/300x240/45450097.jpeg?k=eac0f917a53dc395bd379fef8c191e7d5e37012b68e60232e4f6bba2a2901b7a&o="
+							<div class="property-thumbnail mb-3">
+								<img class="w-full aspect-4/3"
+									src="https://q-xx.bstatic.com/xdata/images/xphoto/300x240/45450097.jpeg?k=eac0f917a53dc395bd379fef8c191e7d5e37012b68e60232e4f6bba2a2901b7a&o="
 									alt="" />
 							</div>
-							<div class="property-meta d-flex flex-column align-items-start justify-content-start">
-								<h6 class="property-type fw-bold">Luxury Tents</h6>
-								<span class="property-count">4,157 luxury tents</span>
+							<div class="property-meta flex flex-col items-start justify-content-start">
+								<h6 class="property-type font-bold">Luxury Tents</h6>
+								<span class="propery-count text-sm">4,157 luxury tents</span>
 							</div>
 						</div>
 
 						<div class="swiper-slide">
-							<div class="property-thumbnail ratio ratio-4x3 mb-3">
-								<img src="https://q-xx.bstatic.com/xdata/images/xphoto/300x240/45450097.jpeg?k=eac0f917a53dc395bd379fef8c191e7d5e37012b68e60232e4f6bba2a2901b7a&o="
+							<div class="property-thumbnail mb-3">
+								<img class="w-full aspect-4/3"
+									src="https://q-xx.bstatic.com/xdata/images/xphoto/300x240/45450097.jpeg?k=eac0f917a53dc395bd379fef8c191e7d5e37012b68e60232e4f6bba2a2901b7a&o="
 									alt="" />
 							</div>
-							<div class="property-meta d-flex flex-column align-items-start justify-content-start">
-								<h6 class="property-type fw-bold">Luxury Tents</h6>
-								<span class="property-count">4,157 luxury tents</span>
+							<div class="property-meta flex flex-col items-start justify-content-start">
+								<h6 class="property-type font-bold">Luxury Tents</h6>
+								<span class="propery-count text-sm">4,157 luxury tents</span>
 							</div>
 						</div>
 
 						<div class="swiper-slide">
-							<div class="property-thumbnail ratio ratio-4x3 mb-3">
-								<img src="https://q-xx.bstatic.com/xdata/images/xphoto/300x240/45450097.jpeg?k=eac0f917a53dc395bd379fef8c191e7d5e37012b68e60232e4f6bba2a2901b7a&o="
+							<div class="property-thumbnail mb-3">
+								<img class="w-full aspect-4/3"
+									src="https://q-xx.bstatic.com/xdata/images/xphoto/300x240/45450097.jpeg?k=eac0f917a53dc395bd379fef8c191e7d5e37012b68e60232e4f6bba2a2901b7a&o="
 									alt="" />
 							</div>
-							<div class="property-meta d-flex flex-column align-items-start justify-content-start">
-								<h6 class="property-type fw-bold">Luxury Tents</h6>
-								<span class="property-count">4,157 luxury tents</span>
+							<div class="property-meta flex flex-col items-start justify-content-start">
+								<h6 class="property-type font-bold">Luxury Tents</h6>
+								<span class="propery-count text-sm">4,157 luxury tents</span>
 							</div>
 						</div>
 
 						<div class="swiper-slide">
-							<div class="property-thumbnail ratio ratio-4x3 mb-3">
-								<img src="https://q-xx.bstatic.com/xdata/images/xphoto/300x240/45450097.jpeg?k=eac0f917a53dc395bd379fef8c191e7d5e37012b68e60232e4f6bba2a2901b7a&o="
+							<div class="property-thumbnail mb-3">
+								<img class="w-full aspect-4/3"
+									src="https://q-xx.bstatic.com/xdata/images/xphoto/300x240/45450097.jpeg?k=eac0f917a53dc395bd379fef8c191e7d5e37012b68e60232e4f6bba2a2901b7a&o="
 									alt="" />
 							</div>
-							<div class="property-meta d-flex flex-column align-items-start justify-content-start">
-								<h6 class="property-type fw-bold">Luxury Tents</h6>
-								<span class="property-count">4,157 luxury tents</span>
+							<div class="property-meta flex flex-col items-start justify-content-start">
+								<h6 class="property-type font-bold">Luxury Tents</h6>
+								<span class="propery-count text-sm">4,157 luxury tents</span>
 							</div>
 						</div>
 
 						<div class="swiper-slide">
-							<div class="property-thumbnail ratio ratio-4x3 mb-3">
-								<img src="https://q-xx.bstatic.com/xdata/images/xphoto/300x240/45450097.jpeg?k=eac0f917a53dc395bd379fef8c191e7d5e37012b68e60232e4f6bba2a2901b7a&o="
+							<div class="property-thumbnail mb-3">
+								<img class="w-full aspect-4/3"
+									src="https://q-xx.bstatic.com/xdata/images/xphoto/300x240/45450097.jpeg?k=eac0f917a53dc395bd379fef8c191e7d5e37012b68e60232e4f6bba2a2901b7a&o="
 									alt="" />
 							</div>
-							<div class="property-meta d-flex flex-column align-items-start justify-content-start">
-								<h6 class="property-type fw-bold">Luxury Tents</h6>
-								<span class="property-count">4,157 luxury tents</span>
+							<div class="property-meta flex flex-col items-start justify-content-start">
+								<h6 class="property-type font-bold">Luxury Tents</h6>
+								<span class="propery-count text-sm">4,157 luxury tents</span>
 							</div>
 						</div>
 
 						<div class="swiper-slide">
-							<div class="property-thumbnail ratio ratio-4x3 mb-3">
-								<img src="https://q-xx.bstatic.com/xdata/images/xphoto/300x240/45450097.jpeg?k=eac0f917a53dc395bd379fef8c191e7d5e37012b68e60232e4f6bba2a2901b7a&o="
+							<div class="property-thumbnail mb-3">
+								<img class="w-full aspect-4/3"
+									src="https://q-xx.bstatic.com/xdata/images/xphoto/300x240/45450097.jpeg?k=eac0f917a53dc395bd379fef8c191e7d5e37012b68e60232e4f6bba2a2901b7a&o="
 									alt="" />
 							</div>
-							<div class="property-meta d-flex flex-column align-items-start justify-content-start">
-								<h6 class="property-type fw-bold">Luxury Tents</h6>
-								<span class="property-count">4,157 luxury tents</span>
+							<div class="property-meta flex flex-col items-start justify-content-start">
+								<h6 class="property-type font-bold">Luxury Tents</h6>
+								<span class="propery-count text-sm">4,157 luxury tents</span>
 							</div>
 						</div>
 
 						<div class="swiper-slide">
-							<div class="property-thumbnail ratio ratio-4x3 mb-3">
-								<img src="https://q-xx.bstatic.com/xdata/images/xphoto/300x240/45450097.jpeg?k=eac0f917a53dc395bd379fef8c191e7d5e37012b68e60232e4f6bba2a2901b7a&o="
+							<div class="property-thumbnail mb-3">
+								<img class="w-full aspect-4/3"
+									src="https://q-xx.bstatic.com/xdata/images/xphoto/300x240/45450097.jpeg?k=eac0f917a53dc395bd379fef8c191e7d5e37012b68e60232e4f6bba2a2901b7a&o="
 									alt="" />
 							</div>
-							<div class="property-meta d-flex flex-column align-items-start justify-content-start">
-								<h6 class="property-type fw-bold">Luxury Tents</h6>
-								<span class="property-count">4,157 luxury tents</span>
+							<div class="property-meta flex flex-col items-start justify-content-start">
+								<h6 class="property-type font-bold">Luxury Tents</h6>
+								<span class="propery-count text-sm">4,157 luxury tents</span>
 							</div>
 						</div>
 
 						<div class="swiper-slide">
-							<div class="property-thumbnail ratio ratio-4x3 mb-3">
-								<img src="https://q-xx.bstatic.com/xdata/images/xphoto/300x240/45450097.jpeg?k=eac0f917a53dc395bd379fef8c191e7d5e37012b68e60232e4f6bba2a2901b7a&o="
+							<div class="property-thumbnail mb-3">
+								<img class="w-full aspect-4/3"
+									src="https://q-xx.bstatic.com/xdata/images/xphoto/300x240/45450097.jpeg?k=eac0f917a53dc395bd379fef8c191e7d5e37012b68e60232e4f6bba2a2901b7a&o="
 									alt="" />
 							</div>
-							<div class="property-meta d-flex flex-column align-items-start justify-content-start">
-								<h6 class="property-type fw-bold">Luxury Tents</h6>
-								<span class="property-count">4,157 luxury tents</span>
+							<div class="property-meta flex flex-col items-start justify-content-start">
+								<h6 class="property-type font-bold">Luxury Tents</h6>
+								<span class="propery-count text-sm">4,157 luxury tents</span>
 							</div>
 						</div>
 					</div>
 				</div>
 				<!-- navigation -->
-				<div class="swiper-button-prev start-0 translate-middle-x">
+				<div class="swiper-button swiper-button-prev start-0 translate-middle-x">
 					<i class="bi bi-chevron-left"></i>
 				</div>
-				<div class="swiper-button-next start-100 translate-middle-x">
+				<div class="swiper-button swiper-button-next start-100 translate-middle-x">
 					<i class="bi bi-chevron-right"></i>
 				</div>
 			</div>
@@ -576,24 +595,25 @@
 	</section>
 
 	<!-- trip type -->
-	<section class="trip-type-area py-4">
+	<section class="trip-type-area mb-8">
 		<div class="site-container">
-			<h4 class="title fw-bold">Quick and easy trip planner</h4>
+			<h4 class="title font-bold">Quick and easy trip planner</h4>
 			<p class="subtitle">
 				Pick a vibe and explore the top destinations in India
 			</p>
 
-			<ul class="nav nav-pills mb-3" id="trip-type" role="tablist">
-				<li class="nav-item me-1" role="presentation">
-					<button class="nav-link active" id="city-tab" data-bs-toggle="pill" data-bs-target="#city"
-						type="button" role="tab" aria-controls="city" aria-selected="true">
+			<ul class="trip-type-tabs nav-tabs flex items-center justify-start gap-3 mb-4" id="trip-type"
+				role="tablist">
+				<li class="nav-item active me-1" role="presentation">
+					<button class="nav-tab-btn" id="city-tab" data-bs-toggle="pill" data-bs-target="#city" type="button"
+						role="tab" aria-controls="city" aria-selected="true">
 						<i class="bi bi-building"></i>
 						City
 					</button>
 				</li>
 
 				<li class="nav-item me-1" role="presentation">
-					<button class="nav-link" id="outdoors-tab" data-bs-toggle="pill" data-bs-target="#outdoors"
+					<button class="nav-tab-btn" id="outdoors-tab" data-bs-toggle="pill" data-bs-target="#outdoors"
 						type="button" role="tab" aria-controls="outdoors" aria-selected="false">
 						<i class="bi bi-bicycle"></i>
 						Outdoors
@@ -601,15 +621,15 @@
 				</li>
 
 				<li class="nav-item me-1" role="presentation">
-					<button class="nav-link" id="beach-tab" data-bs-toggle="pill" data-bs-target="#beach" type="button"
-						role="tab" aria-controls="beach" aria-selected="false">
+					<button class="nav-tab-btn" id="beach-tab" data-bs-toggle="pill" data-bs-target="#beach"
+						type="button" role="tab" aria-controls="beach" aria-selected="false">
 						<i class="bi bi-water"></i>
 						Beach
 					</button>
 				</li>
 
 				<li class="nav-item" role="presentation">
-					<button class="nav-link" id="romance-tab" data-bs-toggle="pill" data-bs-target="#romance"
+					<button class="nav-tab-btn" id="romance-tab" data-bs-toggle="pill" data-bs-target="#romance"
 						type="button" role="tab" aria-controls="romance" aria-selected="false">
 						<i class="bi bi-heart"></i>
 						Romance
@@ -618,622 +638,483 @@
 			</ul>
 
 			<div class="tab-content" id="trip-typeContent">
-				<div class="tab-pane fade show active" id="city" role="tabpanel" aria-labelledby="city-tab"
-					tabindex="0">
-					<div class="trip-type-carousel-wrap position-relative">
-						<div class="trip-type-carousel swiper">
+				<div class="tab-pane  active" id="city" role="tabpanel" aria-labelledby="city-tab" tabindex="0">
+					<div class="trip-carousel-wrap city-trip-carousel-wrap relative">
+						<div class="trip-carousel swiper">
 							<div class="swiper-wrapper">
-								<div class="swiper-slide">
-									<div class="location">
-										<div class="location-thumbnail ratio ratio-1x1 mb-3">
-											<img src="https://cf.bstatic.com/xdata/images/xphoto/300x240/140018173.jpg?k=de47f7a77c981b59b0964790499fff45d7e27e6f001ee48bfd1775c0d6d2c964&o="
-												alt="" />
-										</div>
-										<div
-											class="location-meta d-flex flex-column align-items-start justify-content-start">
-											<h6 class="location-name fw-bold">Shimoga</h6>
-											<span class="distance">514 km from Chennai</span>
-										</div>
-									</div>
-								</div>
 
-								<div class="swiper-slide">
-									<div class="location">
-										<div class="location-thumbnail ratio ratio-1x1 mb-3">
-											<img src="https://cf.bstatic.com/xdata/images/xphoto/300x240/140018173.jpg?k=de47f7a77c981b59b0964790499fff45d7e27e6f001ee48bfd1775c0d6d2c964&o="
-												alt="" />
-										</div>
-										<div
-											class="location-meta d-flex flex-column align-items-start justify-content-start">
-											<h6 class="location-name fw-bold">Shimoga</h6>
-											<span class="distance">514 km from Chennai</span>
-										</div>
-									</div>
-								</div>
-
-								<div class="swiper-slide">
-									<div class="location">
-										<div class="location-thumbnail ratio ratio-1x1 mb-3">
-											<img src="https://cf.bstatic.com/xdata/images/xphoto/300x240/140018173.jpg?k=de47f7a77c981b59b0964790499fff45d7e27e6f001ee48bfd1775c0d6d2c964&o="
-												alt="" />
-										</div>
-										<div
-											class="location-meta d-flex flex-column align-items-start justify-content-start">
-											<h6 class="location-name fw-bold">Shimoga</h6>
-											<span class="distance">514 km from Chennai</span>
-										</div>
-									</div>
-								</div>
-
-								<div class="swiper-slide">
-									<div class="location">
-										<div class="location-thumbnail ratio ratio-1x1 mb-3">
-											<img src="https://cf.bstatic.com/xdata/images/xphoto/300x240/140018173.jpg?k=de47f7a77c981b59b0964790499fff45d7e27e6f001ee48bfd1775c0d6d2c964&o="
-												alt="" />
-										</div>
-										<div
-											class="location-meta d-flex flex-column align-items-start justify-content-start">
-											<h6 class="location-name fw-bold">Shimoga</h6>
-											<span class="distance">514 km from Chennai</span>
-										</div>
-									</div>
-								</div>
-
-								<div class="swiper-slide">
-									<div class="location">
-										<div class="location-thumbnail ratio ratio-1x1 mb-3">
-											<img src="https://cf.bstatic.com/xdata/images/xphoto/300x240/140018173.jpg?k=de47f7a77c981b59b0964790499fff45d7e27e6f001ee48bfd1775c0d6d2c964&o="
-												alt="" />
-										</div>
-										<div
-											class="location-meta d-flex flex-column align-items-start justify-content-start">
-											<h6 class="location-name fw-bold">Shimoga</h6>
-											<span class="distance">514 km from Chennai</span>
-										</div>
-									</div>
-								</div>
-
-								<div class="swiper-slide">
-									<div class="location">
-										<div class="location-thumbnail ratio ratio-1x1 mb-3">
-											<img src="https://cf.bstatic.com/xdata/images/xphoto/300x240/140018173.jpg?k=de47f7a77c981b59b0964790499fff45d7e27e6f001ee48bfd1775c0d6d2c964&o="
-												alt="" />
-										</div>
-										<div
-											class="location-meta d-flex flex-column align-items-start justify-content-start">
-											<h6 class="location-name fw-bold">Shimoga</h6>
-											<span class="distance">514 km from Chennai</span>
-										</div>
-									</div>
-								</div>
-
-								<div class="swiper-slide">
-									<div class="location">
-										<div class="location-thumbnail ratio ratio-1x1 mb-3">
-											<img src="https://cf.bstatic.com/xdata/images/xphoto/300x240/140018173.jpg?k=de47f7a77c981b59b0964790499fff45d7e27e6f001ee48bfd1775c0d6d2c964&o="
-												alt="" />
-										</div>
-										<div
-											class="location-meta d-flex flex-column align-items-start justify-content-start">
-											<h6 class="location-name fw-bold">Shimoga</h6>
-											<span class="distance">514 km from Chennai</span>
-										</div>
-									</div>
-								</div>
-
-								<div class="swiper-slide">
-									<div class="location">
-										<div class="location-thumbnail ratio ratio-1x1 mb-3">
-											<img src="https://cf.bstatic.com/xdata/images/xphoto/300x240/140018173.jpg?k=de47f7a77c981b59b0964790499fff45d7e27e6f001ee48bfd1775c0d6d2c964&o="
-												alt="" />
-										</div>
-										<div
-											class="location-meta d-flex flex-column align-items-start justify-content-start">
-											<h6 class="location-name fw-bold">Shimoga</h6>
-											<span class="distance">514 km from Chennai</span>
-										</div>
-									</div>
-								</div>
-
-								<div class="swiper-slide">
-									<div class="location">
-										<div class="location-thumbnail ratio ratio-1x1 mb-3">
-											<img src="https://cf.bstatic.com/xdata/images/xphoto/300x240/140018173.jpg?k=de47f7a77c981b59b0964790499fff45d7e27e6f001ee48bfd1775c0d6d2c964&o="
-												alt="" />
-										</div>
-										<div
-											class="location-meta d-flex flex-column align-items-start justify-content-start">
-											<h6 class="location-name fw-bold">Shimoga</h6>
-											<span class="distance">514 km from Chennai</span>
-										</div>
-									</div>
-								</div>
-
-								<div class="swiper-slide">
-									<div class="location">
-										<div class="location-thumbnail ratio ratio-1x1 mb-3">
-											<img src="https://cf.bstatic.com/xdata/images/xphoto/300x240/140018173.jpg?k=de47f7a77c981b59b0964790499fff45d7e27e6f001ee48bfd1775c0d6d2c964&o="
-												alt="" />
-										</div>
-										<div
-											class="location-meta d-flex flex-column align-items-start justify-content-start">
-											<h6 class="location-name fw-bold">Shimoga</h6>
-											<span class="distance">514 km from Chennai</span>
-										</div>
-									</div>
-								</div>
 							</div>
 						</div>
 						<!-- navigation -->
-						<div class="swiper-button-prev start-0 translate-middle-x">
+						<div class="swiper-button swiper-button-prev start-0 translate-middle-x">
 							<i class="bi bi-chevron-left"></i>
 						</div>
-						<div class="swiper-button-next start-100 translate-middle-x">
+						<div class="swiper-button swiper-button-next start-100 translate-middle-x">
 							<i class="bi bi-chevron-right"></i>
 						</div>
 					</div>
 				</div>
 
-				<div class="tab-pane fade" id="outdoors" role="tabpanel" aria-labelledby="outdoors-tab" tabindex="0">
-					<div class="trip-type-carousel-wrap position-relative">
-						<div class="trip-type-carousel swiper">
+				<div class="tab-pane " id="outdoors" role="tabpanel" aria-labelledby="outdoors-tab" tabindex="0">
+					<div class="trip-carousel-wrap outdoor-trip-carousel-wrap relative">
+						<div class="trip-carousel swiper">
 							<div class="swiper-wrapper">
 								<div class="swiper-slide">
 									<div class="location">
-										<div class="location-thumbnail ratio ratio-1x1 mb-3">
-											<img src="https://cf.bstatic.com/xdata/images/xphoto/300x240/140018173.jpg?k=de47f7a77c981b59b0964790499fff45d7e27e6f001ee48bfd1775c0d6d2c964&o="
+										<div class="location-thumbnail mb-3">
+											<img class="w-full aspect-4/3 md:aspect-square object-cover"
+												src="https://cf.bstatic.com/xdata/images/xphoto/300x240/140018173.jpg?k=de47f7a77c981b59b0964790499fff45d7e27e6f001ee48bfd1775c0d6d2c964&o="
 												alt="" />
 										</div>
-										<div
-											class="location-meta d-flex flex-column align-items-start justify-content-start">
-											<h6 class="location-name fw-bold">Shimoga</h6>
-											<span class="distance">514 km from Chennai</span>
+										<div class="location-meta flex flex-col items-start justify-content-start">
+											<h6 class="location-name font-bold">Shimoga</h6>
+											<span class="distance text-sm">514 km from Chennai</span>
 										</div>
 									</div>
 								</div>
 
 								<div class="swiper-slide">
 									<div class="location">
-										<div class="location-thumbnail ratio ratio-1x1 mb-3">
-											<img src="https://cf.bstatic.com/xdata/images/xphoto/300x240/140018173.jpg?k=de47f7a77c981b59b0964790499fff45d7e27e6f001ee48bfd1775c0d6d2c964&o="
+										<div class="location-thumbnail mb-3">
+											<img class="w-full aspect-4/3 md:aspect-square object-cover"
+												src="https://cf.bstatic.com/xdata/images/xphoto/300x240/140018173.jpg?k=de47f7a77c981b59b0964790499fff45d7e27e6f001ee48bfd1775c0d6d2c964&o="
 												alt="" />
 										</div>
-										<div
-											class="location-meta d-flex flex-column align-items-start justify-content-start">
-											<h6 class="location-name fw-bold">Shimoga</h6>
-											<span class="distance">514 km from Chennai</span>
+										<div class="location-meta flex flex-col items-start justify-content-start">
+											<h6 class="location-name font-bold">Shimoga</h6>
+											<span class="distance text-sm">514 km from Chennai</span>
 										</div>
 									</div>
 								</div>
 
 								<div class="swiper-slide">
 									<div class="location">
-										<div class="location-thumbnail ratio ratio-1x1 mb-3">
-											<img src="https://cf.bstatic.com/xdata/images/xphoto/300x240/140018173.jpg?k=de47f7a77c981b59b0964790499fff45d7e27e6f001ee48bfd1775c0d6d2c964&o="
+										<div class="location-thumbnail mb-3">
+											<img class="w-full aspect-4/3 md:aspect-square object-cover"
+												src="https://cf.bstatic.com/xdata/images/xphoto/300x240/140018173.jpg?k=de47f7a77c981b59b0964790499fff45d7e27e6f001ee48bfd1775c0d6d2c964&o="
 												alt="" />
 										</div>
-										<div
-											class="location-meta d-flex flex-column align-items-start justify-content-start">
-											<h6 class="location-name fw-bold">Shimoga</h6>
-											<span class="distance">514 km from Chennai</span>
+										<div class="location-meta flex flex-col items-start justify-content-start">
+											<h6 class="location-name font-bold">Shimoga</h6>
+											<span class="distance text-sm">514 km from Chennai</span>
 										</div>
 									</div>
 								</div>
 
 								<div class="swiper-slide">
 									<div class="location">
-										<div class="location-thumbnail ratio ratio-1x1 mb-3">
-											<img src="https://cf.bstatic.com/xdata/images/xphoto/300x240/140018173.jpg?k=de47f7a77c981b59b0964790499fff45d7e27e6f001ee48bfd1775c0d6d2c964&o="
+										<div class="location-thumbnail mb-3">
+											<img class="w-full aspect-4/3 md:aspect-square object-cover"
+												src="https://cf.bstatic.com/xdata/images/xphoto/300x240/140018173.jpg?k=de47f7a77c981b59b0964790499fff45d7e27e6f001ee48bfd1775c0d6d2c964&o="
 												alt="" />
 										</div>
-										<div
-											class="location-meta d-flex flex-column align-items-start justify-content-start">
-											<h6 class="location-name fw-bold">Shimoga</h6>
-											<span class="distance">514 km from Chennai</span>
+										<div class="location-meta flex flex-col items-start justify-content-start">
+											<h6 class="location-name font-bold">Shimoga</h6>
+											<span class="distance text-sm">514 km from Chennai</span>
 										</div>
 									</div>
 								</div>
 
 								<div class="swiper-slide">
 									<div class="location">
-										<div class="location-thumbnail ratio ratio-1x1 mb-3">
-											<img src="https://cf.bstatic.com/xdata/images/xphoto/300x240/140018173.jpg?k=de47f7a77c981b59b0964790499fff45d7e27e6f001ee48bfd1775c0d6d2c964&o="
+										<div class="location-thumbnail mb-3">
+											<img class="w-full aspect-4/3 md:aspect-square object-cover"
+												src="https://cf.bstatic.com/xdata/images/xphoto/300x240/140018173.jpg?k=de47f7a77c981b59b0964790499fff45d7e27e6f001ee48bfd1775c0d6d2c964&o="
 												alt="" />
 										</div>
-										<div
-											class="location-meta d-flex flex-column align-items-start justify-content-start">
-											<h6 class="location-name fw-bold">Shimoga</h6>
-											<span class="distance">514 km from Chennai</span>
+										<div class="location-meta flex flex-col items-start justify-content-start">
+											<h6 class="location-name font-bold">Shimoga</h6>
+											<span class="distance text-sm">514 km from Chennai</span>
 										</div>
 									</div>
 								</div>
 
 								<div class="swiper-slide">
 									<div class="location">
-										<div class="location-thumbnail ratio ratio-1x1 mb-3">
-											<img src="https://cf.bstatic.com/xdata/images/xphoto/300x240/140018173.jpg?k=de47f7a77c981b59b0964790499fff45d7e27e6f001ee48bfd1775c0d6d2c964&o="
+										<div class="location-thumbnail mb-3">
+											<img class="w-full aspect-4/3 md:aspect-square object-cover"
+												src="https://cf.bstatic.com/xdata/images/xphoto/300x240/140018173.jpg?k=de47f7a77c981b59b0964790499fff45d7e27e6f001ee48bfd1775c0d6d2c964&o="
 												alt="" />
 										</div>
-										<div
-											class="location-meta d-flex flex-column align-items-start justify-content-start">
-											<h6 class="location-name fw-bold">Shimoga</h6>
-											<span class="distance">514 km from Chennai</span>
+										<div class="location-meta flex flex-col items-start justify-content-start">
+											<h6 class="location-name font-bold">Shimoga</h6>
+											<span class="distance text-sm">514 km from Chennai</span>
 										</div>
 									</div>
 								</div>
 
 								<div class="swiper-slide">
 									<div class="location">
-										<div class="location-thumbnail ratio ratio-1x1 mb-3">
-											<img src="https://cf.bstatic.com/xdata/images/xphoto/300x240/140018173.jpg?k=de47f7a77c981b59b0964790499fff45d7e27e6f001ee48bfd1775c0d6d2c964&o="
+										<div class="location-thumbnail mb-3">
+											<img class="w-full aspect-4/3 md:aspect-square object-cover"
+												src="https://cf.bstatic.com/xdata/images/xphoto/300x240/140018173.jpg?k=de47f7a77c981b59b0964790499fff45d7e27e6f001ee48bfd1775c0d6d2c964&o="
 												alt="" />
 										</div>
-										<div
-											class="location-meta d-flex flex-column align-items-start justify-content-start">
-											<h6 class="location-name fw-bold">Shimoga</h6>
-											<span class="distance">514 km from Chennai</span>
+										<div class="location-meta flex flex-col items-start justify-content-start">
+											<h6 class="location-name font-bold">Shimoga</h6>
+											<span class="distance text-sm">514 km from Chennai</span>
 										</div>
 									</div>
 								</div>
 
 								<div class="swiper-slide">
 									<div class="location">
-										<div class="location-thumbnail ratio ratio-1x1 mb-3">
-											<img src="https://cf.bstatic.com/xdata/images/xphoto/300x240/140018173.jpg?k=de47f7a77c981b59b0964790499fff45d7e27e6f001ee48bfd1775c0d6d2c964&o="
+										<div class="location-thumbnail mb-3">
+											<img class="w-full aspect-4/3 md:aspect-square object-cover"
+												src="https://cf.bstatic.com/xdata/images/xphoto/300x240/140018173.jpg?k=de47f7a77c981b59b0964790499fff45d7e27e6f001ee48bfd1775c0d6d2c964&o="
 												alt="" />
 										</div>
-										<div
-											class="location-meta d-flex flex-column align-items-start justify-content-start">
-											<h6 class="location-name fw-bold">Shimoga</h6>
-											<span class="distance">514 km from Chennai</span>
+										<div class="location-meta flex flex-col items-start justify-content-start">
+											<h6 class="location-name font-bold">Shimoga</h6>
+											<span class="distance text-sm">514 km from Chennai</span>
 										</div>
 									</div>
 								</div>
 
 								<div class="swiper-slide">
 									<div class="location">
-										<div class="location-thumbnail ratio ratio-1x1 mb-3">
-											<img src="https://cf.bstatic.com/xdata/images/xphoto/300x240/140018173.jpg?k=de47f7a77c981b59b0964790499fff45d7e27e6f001ee48bfd1775c0d6d2c964&o="
+										<div class="location-thumbnail mb-3">
+											<img class="w-full aspect-4/3 md:aspect-square object-cover"
+												src="https://cf.bstatic.com/xdata/images/xphoto/300x240/140018173.jpg?k=de47f7a77c981b59b0964790499fff45d7e27e6f001ee48bfd1775c0d6d2c964&o="
 												alt="" />
 										</div>
-										<div
-											class="location-meta d-flex flex-column align-items-start justify-content-start">
-											<h6 class="location-name fw-bold">Shimoga</h6>
-											<span class="distance">514 km from Chennai</span>
+										<div class="location-meta flex flex-col items-start justify-content-start">
+											<h6 class="location-name font-bold">Shimoga</h6>
+											<span class="distance text-sm">514 km from Chennai</span>
 										</div>
 									</div>
 								</div>
 
 								<div class="swiper-slide">
 									<div class="location">
-										<div class="location-thumbnail ratio ratio-1x1 mb-3">
-											<img src="https://cf.bstatic.com/xdata/images/xphoto/300x240/140018173.jpg?k=de47f7a77c981b59b0964790499fff45d7e27e6f001ee48bfd1775c0d6d2c964&o="
+										<div class="location-thumbnail mb-3">
+											<img class="w-full aspect-4/3 md:aspect-square object-cover"
+												src="https://cf.bstatic.com/xdata/images/xphoto/300x240/140018173.jpg?k=de47f7a77c981b59b0964790499fff45d7e27e6f001ee48bfd1775c0d6d2c964&o="
 												alt="" />
 										</div>
-										<div
-											class="location-meta d-flex flex-column align-items-start justify-content-start">
-											<h6 class="location-name fw-bold">Shimoga</h6>
-											<span class="distance">514 km from Chennai</span>
+										<div class="location-meta flex flex-col items-start justify-content-start">
+											<h6 class="location-name font-bold">Shimoga</h6>
+											<span class="distance text-sm">514 km from Chennai</span>
 										</div>
 									</div>
 								</div>
 							</div>
 						</div>
 						<!-- navigation -->
-						<div class="swiper-button-prev start-0 translate-middle-x">
+						<div class="swiper-button swiper-button-prev start-0 translate-middle-x">
 							<i class="bi bi-chevron-left"></i>
 						</div>
-						<div class="swiper-button-next start-100 translate-middle-x">
+						<div class="swiper-button swiper-button-next start-100 translate-middle-x">
 							<i class="bi bi-chevron-right"></i>
 						</div>
 					</div>
 				</div>
 
-				<div class="tab-pane fade" id="beach" role="tabpanel" aria-labelledby="beach-tab" tabindex="0">
-					<div class="trip-type-carousel-wrap position-relative">
-						<div class="trip-type-carousel swiper">
+				<div class="tab-pane " id="beach" role="tabpanel" aria-labelledby="beach-tab" tabindex="0">
+					<div class="trip-carousel-wrap beach-trip-carousel-wrap relative">
+						<div class="trip-carousel swiper">
 							<div class="swiper-wrapper">
 								<div class="swiper-slide">
 									<div class="location">
-										<div class="location-thumbnail ratio ratio-1x1 mb-3">
-											<img src="https://cf.bstatic.com/xdata/images/xphoto/300x240/140018173.jpg?k=de47f7a77c981b59b0964790499fff45d7e27e6f001ee48bfd1775c0d6d2c964&o="
+										<div class="location-thumbnail mb-3">
+											<img class="w-full aspect-4/3 md:aspect-square object-cover"
+												src="https://cf.bstatic.com/xdata/images/xphoto/300x240/140018173.jpg?k=de47f7a77c981b59b0964790499fff45d7e27e6f001ee48bfd1775c0d6d2c964&o="
 												alt="" />
 										</div>
-										<div
-											class="location-meta d-flex flex-column align-items-start justify-content-start">
-											<h6 class="location-name fw-bold">Shimoga</h6>
-											<span class="distance">514 km from Chennai</span>
+										<div class="location-meta flex flex-col items-start justify-content-start">
+											<h6 class="location-name font-bold">Shimoga</h6>
+											<span class="distance text-sm">514 km from Chennai</span>
 										</div>
 									</div>
 								</div>
 
 								<div class="swiper-slide">
 									<div class="location">
-										<div class="location-thumbnail ratio ratio-1x1 mb-3">
-											<img src="https://cf.bstatic.com/xdata/images/xphoto/300x240/140018173.jpg?k=de47f7a77c981b59b0964790499fff45d7e27e6f001ee48bfd1775c0d6d2c964&o="
+										<div class="location-thumbnail mb-3">
+											<img class="w-full aspect-4/3 md:aspect-square object-cover"
+												src="https://cf.bstatic.com/xdata/images/xphoto/300x240/140018173.jpg?k=de47f7a77c981b59b0964790499fff45d7e27e6f001ee48bfd1775c0d6d2c964&o="
 												alt="" />
 										</div>
-										<div
-											class="location-meta d-flex flex-column align-items-start justify-content-start">
-											<h6 class="location-name fw-bold">Shimoga</h6>
-											<span class="distance">514 km from Chennai</span>
+										<div class="location-meta flex flex-col items-start justify-content-start">
+											<h6 class="location-name font-bold">Shimoga</h6>
+											<span class="distance text-sm">514 km from Chennai</span>
 										</div>
 									</div>
 								</div>
 
 								<div class="swiper-slide">
 									<div class="location">
-										<div class="location-thumbnail ratio ratio-1x1 mb-3">
-											<img src="https://cf.bstatic.com/xdata/images/xphoto/300x240/140018173.jpg?k=de47f7a77c981b59b0964790499fff45d7e27e6f001ee48bfd1775c0d6d2c964&o="
+										<div class="location-thumbnail mb-3">
+											<img class="w-full aspect-4/3 md:aspect-square object-cover"
+												src="https://cf.bstatic.com/xdata/images/xphoto/300x240/140018173.jpg?k=de47f7a77c981b59b0964790499fff45d7e27e6f001ee48bfd1775c0d6d2c964&o="
 												alt="" />
 										</div>
-										<div
-											class="location-meta d-flex flex-column align-items-start justify-content-start">
-											<h6 class="location-name fw-bold">Shimoga</h6>
-											<span class="distance">514 km from Chennai</span>
+										<div class="location-meta flex flex-col items-start justify-content-start">
+											<h6 class="location-name font-bold">Shimoga</h6>
+											<span class="distance text-sm">514 km from Chennai</span>
 										</div>
 									</div>
 								</div>
 
 								<div class="swiper-slide">
 									<div class="location">
-										<div class="location-thumbnail ratio ratio-1x1 mb-3">
-											<img src="https://cf.bstatic.com/xdata/images/xphoto/300x240/140018173.jpg?k=de47f7a77c981b59b0964790499fff45d7e27e6f001ee48bfd1775c0d6d2c964&o="
+										<div class="location-thumbnail mb-3">
+											<img class="w-full aspect-4/3 md:aspect-square object-cover"
+												src="https://cf.bstatic.com/xdata/images/xphoto/300x240/140018173.jpg?k=de47f7a77c981b59b0964790499fff45d7e27e6f001ee48bfd1775c0d6d2c964&o="
 												alt="" />
 										</div>
-										<div
-											class="location-meta d-flex flex-column align-items-start justify-content-start">
-											<h6 class="location-name fw-bold">Shimoga</h6>
-											<span class="distance">514 km from Chennai</span>
+										<div class="location-meta flex flex-col items-start justify-content-start">
+											<h6 class="location-name font-bold">Shimoga</h6>
+											<span class="distance text-sm">514 km from Chennai</span>
 										</div>
 									</div>
 								</div>
 
 								<div class="swiper-slide">
 									<div class="location">
-										<div class="location-thumbnail ratio ratio-1x1 mb-3">
-											<img src="https://cf.bstatic.com/xdata/images/xphoto/300x240/140018173.jpg?k=de47f7a77c981b59b0964790499fff45d7e27e6f001ee48bfd1775c0d6d2c964&o="
+										<div class="location-thumbnail mb-3">
+											<img class="w-full aspect-4/3 md:aspect-square object-cover"
+												src="https://cf.bstatic.com/xdata/images/xphoto/300x240/140018173.jpg?k=de47f7a77c981b59b0964790499fff45d7e27e6f001ee48bfd1775c0d6d2c964&o="
 												alt="" />
 										</div>
-										<div
-											class="location-meta d-flex flex-column align-items-start justify-content-start">
-											<h6 class="location-name fw-bold">Shimoga</h6>
-											<span class="distance">514 km from Chennai</span>
+										<div class="location-meta flex flex-col items-start justify-content-start">
+											<h6 class="location-name font-bold">Shimoga</h6>
+											<span class="distance text-sm">514 km from Chennai</span>
 										</div>
 									</div>
 								</div>
 
 								<div class="swiper-slide">
 									<div class="location">
-										<div class="location-thumbnail ratio ratio-1x1 mb-3">
-											<img src="https://cf.bstatic.com/xdata/images/xphoto/300x240/140018173.jpg?k=de47f7a77c981b59b0964790499fff45d7e27e6f001ee48bfd1775c0d6d2c964&o="
+										<div class="location-thumbnail mb-3">
+											<img class="w-full aspect-4/3 md:aspect-square object-cover"
+												src="https://cf.bstatic.com/xdata/images/xphoto/300x240/140018173.jpg?k=de47f7a77c981b59b0964790499fff45d7e27e6f001ee48bfd1775c0d6d2c964&o="
 												alt="" />
 										</div>
-										<div
-											class="location-meta d-flex flex-column align-items-start justify-content-start">
-											<h6 class="location-name fw-bold">Shimoga</h6>
-											<span class="distance">514 km from Chennai</span>
+										<div class="location-meta flex flex-col items-start justify-content-start">
+											<h6 class="location-name font-bold">Shimoga</h6>
+											<span class="distance text-sm">514 km from Chennai</span>
 										</div>
 									</div>
 								</div>
 
 								<div class="swiper-slide">
 									<div class="location">
-										<div class="location-thumbnail ratio ratio-1x1 mb-3">
-											<img src="https://cf.bstatic.com/xdata/images/xphoto/300x240/140018173.jpg?k=de47f7a77c981b59b0964790499fff45d7e27e6f001ee48bfd1775c0d6d2c964&o="
+										<div class="location-thumbnail mb-3">
+											<img class="w-full aspect-4/3 md:aspect-square object-cover"
+												src="https://cf.bstatic.com/xdata/images/xphoto/300x240/140018173.jpg?k=de47f7a77c981b59b0964790499fff45d7e27e6f001ee48bfd1775c0d6d2c964&o="
 												alt="" />
 										</div>
-										<div
-											class="location-meta d-flex flex-column align-items-start justify-content-start">
-											<h6 class="location-name fw-bold">Shimoga</h6>
-											<span class="distance">514 km from Chennai</span>
+										<div class="location-meta flex flex-col items-start justify-content-start">
+											<h6 class="location-name font-bold">Shimoga</h6>
+											<span class="distance text-sm">514 km from Chennai</span>
 										</div>
 									</div>
 								</div>
 
 								<div class="swiper-slide">
 									<div class="location">
-										<div class="location-thumbnail ratio ratio-1x1 mb-3">
-											<img src="https://cf.bstatic.com/xdata/images/xphoto/300x240/140018173.jpg?k=de47f7a77c981b59b0964790499fff45d7e27e6f001ee48bfd1775c0d6d2c964&o="
+										<div class="location-thumbnail mb-3">
+											<img class="w-full aspect-4/3 md:aspect-square object-cover"
+												src="https://cf.bstatic.com/xdata/images/xphoto/300x240/140018173.jpg?k=de47f7a77c981b59b0964790499fff45d7e27e6f001ee48bfd1775c0d6d2c964&o="
 												alt="" />
 										</div>
-										<div
-											class="location-meta d-flex flex-column align-items-start justify-content-start">
-											<h6 class="location-name fw-bold">Shimoga</h6>
-											<span class="distance">514 km from Chennai</span>
+										<div class="location-meta flex flex-col items-start justify-content-start">
+											<h6 class="location-name font-bold">Shimoga</h6>
+											<span class="distance text-sm">514 km from Chennai</span>
 										</div>
 									</div>
 								</div>
 
 								<div class="swiper-slide">
 									<div class="location">
-										<div class="location-thumbnail ratio ratio-1x1 mb-3">
-											<img src="https://cf.bstatic.com/xdata/images/xphoto/300x240/140018173.jpg?k=de47f7a77c981b59b0964790499fff45d7e27e6f001ee48bfd1775c0d6d2c964&o="
+										<div class="location-thumbnail mb-3">
+											<img class="w-full aspect-4/3 md:aspect-square object-cover"
+												src="https://cf.bstatic.com/xdata/images/xphoto/300x240/140018173.jpg?k=de47f7a77c981b59b0964790499fff45d7e27e6f001ee48bfd1775c0d6d2c964&o="
 												alt="" />
 										</div>
-										<div
-											class="location-meta d-flex flex-column align-items-start justify-content-start">
-											<h6 class="location-name fw-bold">Shimoga</h6>
-											<span class="distance">514 km from Chennai</span>
+										<div class="location-meta flex flex-col items-start justify-content-start">
+											<h6 class="location-name font-bold">Shimoga</h6>
+											<span class="distance text-sm">514 km from Chennai</span>
 										</div>
 									</div>
 								</div>
 
 								<div class="swiper-slide">
 									<div class="location">
-										<div class="location-thumbnail ratio ratio-1x1 mb-3">
-											<img src="https://cf.bstatic.com/xdata/images/xphoto/300x240/140018173.jpg?k=de47f7a77c981b59b0964790499fff45d7e27e6f001ee48bfd1775c0d6d2c964&o="
+										<div class="location-thumbnail mb-3">
+											<img class="w-full aspect-4/3 md:aspect-square object-cover"
+												src="https://cf.bstatic.com/xdata/images/xphoto/300x240/140018173.jpg?k=de47f7a77c981b59b0964790499fff45d7e27e6f001ee48bfd1775c0d6d2c964&o="
 												alt="" />
 										</div>
-										<div
-											class="location-meta d-flex flex-column align-items-start justify-content-start">
-											<h6 class="location-name fw-bold">Shimoga</h6>
-											<span class="distance">514 km from Chennai</span>
+										<div class="location-meta flex flex-col items-start justify-content-start">
+											<h6 class="location-name font-bold">Shimoga</h6>
+											<span class="distance text-sm">514 km from Chennai</span>
 										</div>
 									</div>
 								</div>
 							</div>
 						</div>
 						<!-- navigation -->
-						<div class="swiper-button-prev start-0 translate-middle-x">
+						<div class="swiper-button swiper-button-prev start-0 translate-middle-x">
 							<i class="bi bi-chevron-left"></i>
 						</div>
-						<div class="swiper-button-next start-100 translate-middle-x">
+						<div class="swiper-button swiper-button-next start-100 translate-middle-x">
 							<i class="bi bi-chevron-right"></i>
 						</div>
 					</div>
 				</div>
 
-				<div class="tab-pane fade" id="romance" role="tabpanel" aria-labelledby="romance-tab" tabindex="0">
-					<div class="trip-type-carousel-wrap position-relative">
-						<div class="trip-type-carousel swiper">
+				<div class="tab-pane " id="romance" role="tabpanel" aria-labelledby="romance-tab" tabindex="0">
+					<div class="trip-carousel-wrap romance-trip-carousel-wrap relative">
+						<div class="trip-carousel  swiper">
 							<div class="swiper-wrapper">
 								<div class="swiper-slide">
 									<div class="location">
-										<div class="location-thumbnail ratio ratio-1x1 mb-3">
-											<img src="https://cf.bstatic.com/xdata/images/xphoto/300x240/140018173.jpg?k=de47f7a77c981b59b0964790499fff45d7e27e6f001ee48bfd1775c0d6d2c964&o="
+										<div class="location-thumbnail mb-3">
+											<img class="w-full aspect-4/3 md:aspect-square object-cover"
+												src="https://cf.bstatic.com/xdata/images/xphoto/300x240/140018173.jpg?k=de47f7a77c981b59b0964790499fff45d7e27e6f001ee48bfd1775c0d6d2c964&o="
 												alt="" />
 										</div>
-										<div
-											class="location-meta d-flex flex-column align-items-start justify-content-start">
-											<h6 class="location-name fw-bold">Shimoga</h6>
-											<span class="distance">514 km from Chennai</span>
+										<div class="location-meta flex flex-col items-start justify-content-start">
+											<h6 class="location-name font-bold">Shimoga</h6>
+											<span class="distance text-sm">514 km from Chennai</span>
 										</div>
 									</div>
 								</div>
 
 								<div class="swiper-slide">
 									<div class="location">
-										<div class="location-thumbnail ratio ratio-1x1 mb-3">
-											<img src="https://cf.bstatic.com/xdata/images/xphoto/300x240/140018173.jpg?k=de47f7a77c981b59b0964790499fff45d7e27e6f001ee48bfd1775c0d6d2c964&o="
+										<div class="location-thumbnail mb-3">
+											<img class="w-full aspect-4/3 md:aspect-square object-cover"
+												src="https://cf.bstatic.com/xdata/images/xphoto/300x240/140018173.jpg?k=de47f7a77c981b59b0964790499fff45d7e27e6f001ee48bfd1775c0d6d2c964&o="
 												alt="" />
 										</div>
-										<div
-											class="location-meta d-flex flex-column align-items-start justify-content-start">
-											<h6 class="location-name fw-bold">Shimoga</h6>
-											<span class="distance">514 km from Chennai</span>
+										<div class="location-meta flex flex-col items-start justify-content-start">
+											<h6 class="location-name font-bold">Shimoga</h6>
+											<span class="distance text-sm">514 km from Chennai</span>
 										</div>
 									</div>
 								</div>
 
 								<div class="swiper-slide">
 									<div class="location">
-										<div class="location-thumbnail ratio ratio-1x1 mb-3">
-											<img src="https://cf.bstatic.com/xdata/images/xphoto/300x240/140018173.jpg?k=de47f7a77c981b59b0964790499fff45d7e27e6f001ee48bfd1775c0d6d2c964&o="
+										<div class="location-thumbnail mb-3">
+											<img class="w-full aspect-4/3 md:aspect-square object-cover"
+												src="https://cf.bstatic.com/xdata/images/xphoto/300x240/140018173.jpg?k=de47f7a77c981b59b0964790499fff45d7e27e6f001ee48bfd1775c0d6d2c964&o="
 												alt="" />
 										</div>
-										<div
-											class="location-meta d-flex flex-column align-items-start justify-content-start">
-											<h6 class="location-name fw-bold">Shimoga</h6>
-											<span class="distance">514 km from Chennai</span>
+										<div class="location-meta flex flex-col items-start justify-content-start">
+											<h6 class="location-name font-bold">Shimoga</h6>
+											<span class="distance text-sm">514 km from Chennai</span>
 										</div>
 									</div>
 								</div>
 
 								<div class="swiper-slide">
 									<div class="location">
-										<div class="location-thumbnail ratio ratio-1x1 mb-3">
-											<img src="https://cf.bstatic.com/xdata/images/xphoto/300x240/140018173.jpg?k=de47f7a77c981b59b0964790499fff45d7e27e6f001ee48bfd1775c0d6d2c964&o="
+										<div class="location-thumbnail mb-3">
+											<img class="w-full aspect-4/3 md:aspect-square object-cover"
+												src="https://cf.bstatic.com/xdata/images/xphoto/300x240/140018173.jpg?k=de47f7a77c981b59b0964790499fff45d7e27e6f001ee48bfd1775c0d6d2c964&o="
 												alt="" />
 										</div>
-										<div
-											class="location-meta d-flex flex-column align-items-start justify-content-start">
-											<h6 class="location-name fw-bold">Shimoga</h6>
-											<span class="distance">514 km from Chennai</span>
+										<div class="location-meta flex flex-col items-start justify-content-start">
+											<h6 class="location-name font-bold">Shimoga</h6>
+											<span class="distance text-sm">514 km from Chennai</span>
 										</div>
 									</div>
 								</div>
 
 								<div class="swiper-slide">
 									<div class="location">
-										<div class="location-thumbnail ratio ratio-1x1 mb-3">
-											<img src="https://cf.bstatic.com/xdata/images/xphoto/300x240/140018173.jpg?k=de47f7a77c981b59b0964790499fff45d7e27e6f001ee48bfd1775c0d6d2c964&o="
+										<div class="location-thumbnail mb-3">
+											<img class="w-full aspect-4/3 md:aspect-square object-cover"
+												src="https://cf.bstatic.com/xdata/images/xphoto/300x240/140018173.jpg?k=de47f7a77c981b59b0964790499fff45d7e27e6f001ee48bfd1775c0d6d2c964&o="
 												alt="" />
 										</div>
-										<div
-											class="location-meta d-flex flex-column align-items-start justify-content-start">
-											<h6 class="location-name fw-bold">Shimoga</h6>
-											<span class="distance">514 km from Chennai</span>
+										<div class="location-meta flex flex-col items-start justify-content-start">
+											<h6 class="location-name font-bold">Shimoga</h6>
+											<span class="distance text-sm">514 km from Chennai</span>
 										</div>
 									</div>
 								</div>
 
 								<div class="swiper-slide">
 									<div class="location">
-										<div class="location-thumbnail ratio ratio-1x1 mb-3">
-											<img src="https://cf.bstatic.com/xdata/images/xphoto/300x240/140018173.jpg?k=de47f7a77c981b59b0964790499fff45d7e27e6f001ee48bfd1775c0d6d2c964&o="
+										<div class="location-thumbnail mb-3">
+											<img class="w-full aspect-4/3 md:aspect-square object-cover"
+												src="https://cf.bstatic.com/xdata/images/xphoto/300x240/140018173.jpg?k=de47f7a77c981b59b0964790499fff45d7e27e6f001ee48bfd1775c0d6d2c964&o="
 												alt="" />
 										</div>
-										<div
-											class="location-meta d-flex flex-column align-items-start justify-content-start">
-											<h6 class="location-name fw-bold">Shimoga</h6>
-											<span class="distance">514 km from Chennai</span>
+										<div class="location-meta flex flex-col items-start justify-content-start">
+											<h6 class="location-name font-bold">Shimoga</h6>
+											<span class="distance text-sm">514 km from Chennai</span>
 										</div>
 									</div>
 								</div>
 
 								<div class="swiper-slide">
 									<div class="location">
-										<div class="location-thumbnail ratio ratio-1x1 mb-3">
-											<img src="https://cf.bstatic.com/xdata/images/xphoto/300x240/140018173.jpg?k=de47f7a77c981b59b0964790499fff45d7e27e6f001ee48bfd1775c0d6d2c964&o="
+										<div class="location-thumbnail mb-3">
+											<img class="w-full aspect-4/3 md:aspect-square object-cover"
+												src="https://cf.bstatic.com/xdata/images/xphoto/300x240/140018173.jpg?k=de47f7a77c981b59b0964790499fff45d7e27e6f001ee48bfd1775c0d6d2c964&o="
 												alt="" />
 										</div>
-										<div
-											class="location-meta d-flex flex-column align-items-start justify-content-start">
-											<h6 class="location-name fw-bold">Shimoga</h6>
-											<span class="distance">514 km from Chennai</span>
+										<div class="location-meta flex flex-col items-start justify-content-start">
+											<h6 class="location-name font-bold">Shimoga</h6>
+											<span class="distance text-sm">514 km from Chennai</span>
 										</div>
 									</div>
 								</div>
 
 								<div class="swiper-slide">
 									<div class="location">
-										<div class="location-thumbnail ratio ratio-1x1 mb-3">
-											<img src="https://cf.bstatic.com/xdata/images/xphoto/300x240/140018173.jpg?k=de47f7a77c981b59b0964790499fff45d7e27e6f001ee48bfd1775c0d6d2c964&o="
+										<div class="location-thumbnail mb-3">
+											<img class="w-full aspect-4/3 md:aspect-square object-cover"
+												src="https://cf.bstatic.com/xdata/images/xphoto/300x240/140018173.jpg?k=de47f7a77c981b59b0964790499fff45d7e27e6f001ee48bfd1775c0d6d2c964&o="
 												alt="" />
 										</div>
-										<div
-											class="location-meta d-flex flex-column align-items-start justify-content-start">
-											<h6 class="location-name fw-bold">Shimoga</h6>
-											<span class="distance">514 km from Chennai</span>
+										<div class="location-meta flex flex-col items-start justify-content-start">
+											<h6 class="location-name font-bold">Shimoga</h6>
+											<span class="distance text-sm">514 km from Chennai</span>
 										</div>
 									</div>
 								</div>
 
 								<div class="swiper-slide">
 									<div class="location">
-										<div class="location-thumbnail ratio ratio-1x1 mb-3">
-											<img src="https://cf.bstatic.com/xdata/images/xphoto/300x240/140018173.jpg?k=de47f7a77c981b59b0964790499fff45d7e27e6f001ee48bfd1775c0d6d2c964&o="
+										<div class="location-thumbnail mb-3">
+											<img class="w-full aspect-4/3 md:aspect-square object-cover"
+												src="https://cf.bstatic.com/xdata/images/xphoto/300x240/140018173.jpg?k=de47f7a77c981b59b0964790499fff45d7e27e6f001ee48bfd1775c0d6d2c964&o="
 												alt="" />
 										</div>
-										<div
-											class="location-meta d-flex flex-column align-items-start justify-content-start">
-											<h6 class="location-name fw-bold">Shimoga</h6>
-											<span class="distance">514 km from Chennai</span>
+										<div class="location-meta flex flex-col items-start justify-content-start">
+											<h6 class="location-name font-bold">Shimoga</h6>
+											<span class="distance text-sm">514 km from Chennai</span>
 										</div>
 									</div>
 								</div>
 
 								<div class="swiper-slide">
 									<div class="location">
-										<div class="location-thumbnail ratio ratio-1x1 mb-3">
-											<img src="https://cf.bstatic.com/xdata/images/xphoto/300x240/140018173.jpg?k=de47f7a77c981b59b0964790499fff45d7e27e6f001ee48bfd1775c0d6d2c964&o="
+										<div class="location-thumbnail mb-3">
+											<img class="w-full aspect-4/3 md:aspect-square object-cover"
+												src="https://cf.bstatic.com/xdata/images/xphoto/300x240/140018173.jpg?k=de47f7a77c981b59b0964790499fff45d7e27e6f001ee48bfd1775c0d6d2c964&o="
 												alt="" />
 										</div>
-										<div
-											class="location-meta d-flex flex-column align-items-start justify-content-start">
-											<h6 class="location-name fw-bold">Shimoga</h6>
-											<span class="distance">514 km from Chennai</span>
+										<div class="location-meta flex flex-col items-start justify-content-start">
+											<h6 class="location-name font-bold">Shimoga</h6>
+											<span class="distance text-sm">514 km from Chennai</span>
 										</div>
 									</div>
 								</div>
 							</div>
 						</div>
 						<!-- navigation -->
-						<div class="swiper-button-prev start-0 translate-middle-x">
+						<div class="swiper-button swiper-button-prev start-0 translate-middle-x">
 							<i class="bi bi-chevron-left"></i>
 						</div>
-						<div class="swiper-button-next start-100 translate-middle-x">
+						<div class="swiper-button swiper-button-next start-100 translate-middle-x">
 							<i class="bi bi-chevron-right"></i>
 						</div>
 					</div>
@@ -1243,30 +1124,32 @@
 	</section>
 
 	<!-- top rated -->
-	<section class="top-rated-area py-4">
+	<section class="top-rated-area mb-8">
 		<div class="site-container">
-			<h4 class="title fw-bold">Stay at our top unique properties</h4>
+			<h4 class="title font-bold">Stay at our top unique properties</h4>
 			<p class="subtitle">
 				From castles and villas to boats and igloos, we've got it all
 			</p>
 
-			<div class="top-rated-carousel-wrap position-relative">
+			<div class="top-rated-carousel-wrap relative">
 				<div class="top-rated-carousel swiper">
 					<div class="swiper-wrapper">
 						<div class="swiper-slide">
 							<a href="" class="location text-dark">
-								<div class="property-thumbnail ratio ratio-4x3 mb-3">
-									<img src="https://cf.bstatic.com/xdata/images/hotel/square600/132452060.webp?k=8448bab55c87dbb42ab7c6643fbbce542124c908f63f6b36dc3cdc859e60cb0a&o=&s=1"
+								<div class="property-thumbnail mb-3">
+									<img class="w-full aspect-video md:aspect-4/3"
+										src="https://cf.bstatic.com/xdata/images/hotel/square600/132452060.webp?k=8448bab55c87dbb42ab7c6643fbbce542124c908f63f6b36dc3cdc859e60cb0a&o=&s=1"
 										alt="" />
 								</div>
-								<div class="property-meta d-flex flex-column align-items-start justify-content-start">
-									<h6 class="property-title fw-bold">Ranczo w Dolinie</h6>
-									<span class="property-location">Poland, Kiszkowo</span>
-									<span class="property-price">
+								<div class="property-meta flex flex-col items-start justify-content-start">
+									<h6 class="property-title font-bold">Ranczo w Dolinie</h6>
+									<span class="property-location text-sm">Poland, Kiszkowo</span>
+									<span class="property-price text-sm">
 										Starting from <strong class="fs-6 ms-1">$400</strong>
 									</span>
-									<span class="property-ratings d-flex align-items-center justify-content-start mt-2">
-										<span class="ratings">9.5</span>
+									<span class="property-ratings flex items-center justify-content-start mt-2">
+										<span
+											class="ratings bg-primary text-white w-6 h-6 flex items-center justify-center rounded-[3px] rounded-bl-none mr-2">9.5</span>
 										<span class="rating-text me-2">Superb</span>
 										<span class="reviews">180 reviews</span>
 									</span>
@@ -1276,18 +1159,20 @@
 
 						<div class="swiper-slide">
 							<a href="" class="location text-dark">
-								<div class="property-thumbnail ratio ratio-4x3 mb-3">
-									<img src="https://cf.bstatic.com/xdata/images/hotel/square600/132452060.webp?k=8448bab55c87dbb42ab7c6643fbbce542124c908f63f6b36dc3cdc859e60cb0a&o=&s=1"
+								<div class="property-thumbnail mb-3">
+									<img class="w-full aspect-video md:aspect-4/3"
+										src="https://cf.bstatic.com/xdata/images/hotel/square600/132452060.webp?k=8448bab55c87dbb42ab7c6643fbbce542124c908f63f6b36dc3cdc859e60cb0a&o=&s=1"
 										alt="" />
 								</div>
-								<div class="property-meta d-flex flex-column align-items-start justify-content-start">
-									<h6 class="property-title fw-bold">Ranczo w Dolinie</h6>
-									<span class="property-location">Poland, Kiszkowo</span>
-									<span class="property-price">
+								<div class="property-meta flex flex-col items-start justify-content-start">
+									<h6 class="property-title font-bold">Ranczo w Dolinie</h6>
+									<span class="property-location text-sm">Poland, Kiszkowo</span>
+									<span class="property-price text-sm">
 										Starting from <strong class="fs-6 ms-1">$400</strong>
 									</span>
-									<span class="property-ratings d-flex align-items-center justify-content-start mt-2">
-										<span class="ratings">9.5</span>
+									<span class="property-ratings flex items-center justify-content-start mt-2">
+										<span
+											class="ratings bg-primary text-white w-6 h-6 flex items-center justify-center rounded-[3px] rounded-bl-none mr-2">9.5</span>
 										<span class="rating-text me-2">Superb</span>
 										<span class="reviews">180 reviews</span>
 									</span>
@@ -1297,18 +1182,20 @@
 
 						<div class="swiper-slide">
 							<a href="" class="location text-dark">
-								<div class="property-thumbnail ratio ratio-4x3 mb-3">
-									<img src="https://cf.bstatic.com/xdata/images/hotel/square600/132452060.webp?k=8448bab55c87dbb42ab7c6643fbbce542124c908f63f6b36dc3cdc859e60cb0a&o=&s=1"
+								<div class="property-thumbnail mb-3">
+									<img class="w-full aspect-video md:aspect-4/3"
+										src="https://cf.bstatic.com/xdata/images/hotel/square600/132452060.webp?k=8448bab55c87dbb42ab7c6643fbbce542124c908f63f6b36dc3cdc859e60cb0a&o=&s=1"
 										alt="" />
 								</div>
-								<div class="property-meta d-flex flex-column align-items-start justify-content-start">
-									<h6 class="property-title fw-bold">Ranczo w Dolinie</h6>
-									<span class="property-location">Poland, Kiszkowo</span>
-									<span class="property-price">
+								<div class="property-meta flex flex-col items-start justify-content-start">
+									<h6 class="property-title font-bold">Ranczo w Dolinie</h6>
+									<span class="property-location text-sm">Poland, Kiszkowo</span>
+									<span class="property-price text-sm">
 										Starting from <strong class="fs-6 ms-1">$400</strong>
 									</span>
-									<span class="property-ratings d-flex align-items-center justify-content-start mt-2">
-										<span class="ratings">9.5</span>
+									<span class="property-ratings flex items-center justify-content-start mt-2">
+										<span
+											class="ratings bg-primary text-white w-6 h-6 flex items-center justify-center rounded-[3px] rounded-bl-none mr-2">9.5</span>
 										<span class="rating-text me-2">Superb</span>
 										<span class="reviews">180 reviews</span>
 									</span>
@@ -1318,18 +1205,20 @@
 
 						<div class="swiper-slide">
 							<a href="" class="location text-dark">
-								<div class="property-thumbnail ratio ratio-4x3 mb-3">
-									<img src="https://cf.bstatic.com/xdata/images/hotel/square600/132452060.webp?k=8448bab55c87dbb42ab7c6643fbbce542124c908f63f6b36dc3cdc859e60cb0a&o=&s=1"
+								<div class="property-thumbnail mb-3">
+									<img class="w-full aspect-video md:aspect-4/3"
+										src="https://cf.bstatic.com/xdata/images/hotel/square600/132452060.webp?k=8448bab55c87dbb42ab7c6643fbbce542124c908f63f6b36dc3cdc859e60cb0a&o=&s=1"
 										alt="" />
 								</div>
-								<div class="property-meta d-flex flex-column align-items-start justify-content-start">
-									<h6 class="property-title fw-bold">Ranczo w Dolinie</h6>
-									<span class="property-location">Poland, Kiszkowo</span>
-									<span class="property-price">
+								<div class="property-meta flex flex-col items-start justify-content-start">
+									<h6 class="property-title font-bold">Ranczo w Dolinie</h6>
+									<span class="property-location text-sm">Poland, Kiszkowo</span>
+									<span class="property-price text-sm">
 										Starting from <strong class="fs-6 ms-1">$400</strong>
 									</span>
-									<span class="property-ratings d-flex align-items-center justify-content-start mt-2">
-										<span class="ratings">9.5</span>
+									<span class="property-ratings flex items-center justify-content-start mt-2">
+										<span
+											class="ratings bg-primary text-white w-6 h-6 flex items-center justify-center rounded-[3px] rounded-bl-none mr-2">9.5</span>
 										<span class="rating-text me-2">Superb</span>
 										<span class="reviews">180 reviews</span>
 									</span>
@@ -1339,18 +1228,20 @@
 
 						<div class="swiper-slide">
 							<a href="" class="location text-dark">
-								<div class="property-thumbnail ratio ratio-4x3 mb-3">
-									<img src="https://cf.bstatic.com/xdata/images/hotel/square600/132452060.webp?k=8448bab55c87dbb42ab7c6643fbbce542124c908f63f6b36dc3cdc859e60cb0a&o=&s=1"
+								<div class="property-thumbnail mb-3">
+									<img class="w-full aspect-video md:aspect-4/3"
+										src="https://cf.bstatic.com/xdata/images/hotel/square600/132452060.webp?k=8448bab55c87dbb42ab7c6643fbbce542124c908f63f6b36dc3cdc859e60cb0a&o=&s=1"
 										alt="" />
 								</div>
-								<div class="property-meta d-flex flex-column align-items-start justify-content-start">
-									<h6 class="property-title fw-bold">Ranczo w Dolinie</h6>
-									<span class="property-location">Poland, Kiszkowo</span>
-									<span class="property-price">
+								<div class="property-meta flex flex-col items-start justify-content-start">
+									<h6 class="property-title font-bold">Ranczo w Dolinie</h6>
+									<span class="property-location text-sm">Poland, Kiszkowo</span>
+									<span class="property-price text-sm">
 										Starting from <strong class="fs-6 ms-1">$400</strong>
 									</span>
-									<span class="property-ratings d-flex align-items-center justify-content-start mt-2">
-										<span class="ratings">9.5</span>
+									<span class="property-ratings flex items-center justify-content-start mt-2">
+										<span
+											class="ratings bg-primary text-white w-6 h-6 flex items-center justify-center rounded-[3px] rounded-bl-none mr-2">9.5</span>
 										<span class="rating-text me-2">Superb</span>
 										<span class="reviews">180 reviews</span>
 									</span>
@@ -1360,18 +1251,20 @@
 
 						<div class="swiper-slide">
 							<a href="" class="location text-dark">
-								<div class="property-thumbnail ratio ratio-4x3 mb-3">
-									<img src="https://cf.bstatic.com/xdata/images/hotel/square600/132452060.webp?k=8448bab55c87dbb42ab7c6643fbbce542124c908f63f6b36dc3cdc859e60cb0a&o=&s=1"
+								<div class="property-thumbnail mb-3">
+									<img class="w-full aspect-video md:aspect-4/3"
+										src="https://cf.bstatic.com/xdata/images/hotel/square600/132452060.webp?k=8448bab55c87dbb42ab7c6643fbbce542124c908f63f6b36dc3cdc859e60cb0a&o=&s=1"
 										alt="" />
 								</div>
-								<div class="property-meta d-flex flex-column align-items-start justify-content-start">
-									<h6 class="property-title fw-bold">Ranczo w Dolinie</h6>
-									<span class="property-location">Poland, Kiszkowo</span>
-									<span class="property-price">
+								<div class="property-meta flex flex-col items-start justify-content-start">
+									<h6 class="property-title font-bold">Ranczo w Dolinie</h6>
+									<span class="property-location text-sm">Poland, Kiszkowo</span>
+									<span class="property-price text-sm">
 										Starting from <strong class="fs-6 ms-1">$400</strong>
 									</span>
-									<span class="property-ratings d-flex align-items-center justify-content-start mt-2">
-										<span class="ratings">9.5</span>
+									<span class="property-ratings flex items-center justify-content-start mt-2">
+										<span
+											class="ratings bg-primary text-white w-6 h-6 flex items-center justify-center rounded-[3px] rounded-bl-none mr-2">9.5</span>
 										<span class="rating-text me-2">Superb</span>
 										<span class="reviews">180 reviews</span>
 									</span>
@@ -1381,18 +1274,20 @@
 
 						<div class="swiper-slide">
 							<a href="" class="location text-dark">
-								<div class="property-thumbnail ratio ratio-4x3 mb-3">
-									<img src="https://cf.bstatic.com/xdata/images/hotel/square600/132452060.webp?k=8448bab55c87dbb42ab7c6643fbbce542124c908f63f6b36dc3cdc859e60cb0a&o=&s=1"
+								<div class="property-thumbnail mb-3">
+									<img class="w-full aspect-video md:aspect-4/3"
+										src="https://cf.bstatic.com/xdata/images/hotel/square600/132452060.webp?k=8448bab55c87dbb42ab7c6643fbbce542124c908f63f6b36dc3cdc859e60cb0a&o=&s=1"
 										alt="" />
 								</div>
-								<div class="property-meta d-flex flex-column align-items-start justify-content-start">
-									<h6 class="property-title fw-bold">Ranczo w Dolinie</h6>
-									<span class="property-location">Poland, Kiszkowo</span>
-									<span class="property-price">
+								<div class="property-meta flex flex-col items-start justify-content-start">
+									<h6 class="property-title font-bold">Ranczo w Dolinie</h6>
+									<span class="property-location text-sm">Poland, Kiszkowo</span>
+									<span class="property-price text-sm">
 										Starting from <strong class="fs-6 ms-1">$400</strong>
 									</span>
-									<span class="property-ratings d-flex align-items-center justify-content-start mt-2">
-										<span class="ratings">9.5</span>
+									<span class="property-ratings flex items-center justify-content-start mt-2">
+										<span
+											class="ratings bg-primary text-white w-6 h-6 flex items-center justify-center rounded-[3px] rounded-bl-none mr-2">9.5</span>
 										<span class="rating-text me-2">Superb</span>
 										<span class="reviews">180 reviews</span>
 									</span>
@@ -1402,18 +1297,20 @@
 
 						<div class="swiper-slide">
 							<a href="" class="location text-dark">
-								<div class="property-thumbnail ratio ratio-4x3 mb-3">
-									<img src="https://cf.bstatic.com/xdata/images/hotel/square600/132452060.webp?k=8448bab55c87dbb42ab7c6643fbbce542124c908f63f6b36dc3cdc859e60cb0a&o=&s=1"
+								<div class="property-thumbnail mb-3">
+									<img class="w-full aspect-video md:aspect-4/3"
+										src="https://cf.bstatic.com/xdata/images/hotel/square600/132452060.webp?k=8448bab55c87dbb42ab7c6643fbbce542124c908f63f6b36dc3cdc859e60cb0a&o=&s=1"
 										alt="" />
 								</div>
-								<div class="property-meta d-flex flex-column align-items-start justify-content-start">
-									<h6 class="property-title fw-bold">Ranczo w Dolinie</h6>
-									<span class="property-location">Poland, Kiszkowo</span>
-									<span class="property-price">
+								<div class="property-meta flex flex-col items-start justify-content-start">
+									<h6 class="property-title font-bold">Ranczo w Dolinie</h6>
+									<span class="property-location text-sm">Poland, Kiszkowo</span>
+									<span class="property-price text-sm">
 										Starting from <strong class="fs-6 ms-1">$400</strong>
 									</span>
-									<span class="property-ratings d-flex align-items-center justify-content-start mt-2">
-										<span class="ratings">9.5</span>
+									<span class="property-ratings flex items-center justify-content-start mt-2">
+										<span
+											class="ratings bg-primary text-white w-6 h-6 flex items-center justify-center rounded-[3px] rounded-bl-none mr-2">9.5</span>
 										<span class="rating-text me-2">Superb</span>
 										<span class="reviews">180 reviews</span>
 									</span>
@@ -1423,18 +1320,20 @@
 
 						<div class="swiper-slide">
 							<a href="" class="location text-dark">
-								<div class="property-thumbnail ratio ratio-4x3 mb-3">
-									<img src="https://cf.bstatic.com/xdata/images/hotel/square600/132452060.webp?k=8448bab55c87dbb42ab7c6643fbbce542124c908f63f6b36dc3cdc859e60cb0a&o=&s=1"
+								<div class="property-thumbnail mb-3">
+									<img class="w-full aspect-video md:aspect-4/3"
+										src="https://cf.bstatic.com/xdata/images/hotel/square600/132452060.webp?k=8448bab55c87dbb42ab7c6643fbbce542124c908f63f6b36dc3cdc859e60cb0a&o=&s=1"
 										alt="" />
 								</div>
-								<div class="property-meta d-flex flex-column align-items-start justify-content-start">
-									<h6 class="property-title fw-bold">Ranczo w Dolinie</h6>
-									<span class="property-location">Poland, Kiszkowo</span>
-									<span class="property-price">
+								<div class="property-meta flex flex-col items-start justify-content-start">
+									<h6 class="property-title font-bold">Ranczo w Dolinie</h6>
+									<span class="property-location text-sm">Poland, Kiszkowo</span>
+									<span class="property-price text-sm">
 										Starting from <strong class="fs-6 ms-1">$400</strong>
 									</span>
-									<span class="property-ratings d-flex align-items-center justify-content-start mt-2">
-										<span class="ratings">9.5</span>
+									<span class="property-ratings flex items-center justify-content-start mt-2">
+										<span
+											class="ratings bg-primary text-white w-6 h-6 flex items-center justify-center rounded-[3px] rounded-bl-none mr-2">9.5</span>
 										<span class="rating-text me-2">Superb</span>
 										<span class="reviews">180 reviews</span>
 									</span>
@@ -1444,18 +1343,20 @@
 
 						<div class="swiper-slide">
 							<a href="" class="location text-dark">
-								<div class="property-thumbnail ratio ratio-4x3 mb-3">
-									<img src="https://cf.bstatic.com/xdata/images/hotel/square600/132452060.webp?k=8448bab55c87dbb42ab7c6643fbbce542124c908f63f6b36dc3cdc859e60cb0a&o=&s=1"
+								<div class="property-thumbnail mb-3">
+									<img class="w-full aspect-video md:aspect-4/3"
+										src="https://cf.bstatic.com/xdata/images/hotel/square600/132452060.webp?k=8448bab55c87dbb42ab7c6643fbbce542124c908f63f6b36dc3cdc859e60cb0a&o=&s=1"
 										alt="" />
 								</div>
-								<div class="property-meta d-flex flex-column align-items-start justify-content-start">
-									<h6 class="property-title fw-bold">Ranczo w Dolinie</h6>
-									<span class="property-location">Poland, Kiszkowo</span>
-									<span class="property-price">
+								<div class="property-meta flex flex-col items-start justify-content-start">
+									<h6 class="property-title font-bold">Ranczo w Dolinie</h6>
+									<span class="property-location text-sm">Poland, Kiszkowo</span>
+									<span class="property-price text-sm">
 										Starting from <strong class="fs-6 ms-1">$400</strong>
 									</span>
-									<span class="property-ratings d-flex align-items-center justify-content-start mt-2">
-										<span class="ratings">9.5</span>
+									<span class="property-ratings flex items-center justify-content-start mt-2">
+										<span
+											class="ratings bg-primary text-white w-6 h-6 flex items-center justify-center rounded-[3px] rounded-bl-none mr-2">9.5</span>
 										<span class="rating-text me-2">Superb</span>
 										<span class="reviews">180 reviews</span>
 									</span>
@@ -1465,10 +1366,10 @@
 					</div>
 				</div>
 				<!-- navigation -->
-				<div class="swiper-button-prev start-0 translate-middle-x">
+				<div class="swiper-button swiper-button-prev start-0 translate-middle-x">
 					<i class="bi bi-chevron-left"></i>
 				</div>
-				<div class="swiper-button-next start-100 translate-middle-x">
+				<div class="swiper-button swiper-button-next start-100 translate-middle-x">
 					<i class="bi bi-chevron-right"></i>
 				</div>
 			</div>
@@ -1476,99 +1377,94 @@
 	</section>
 
 	<!-- blog -->
-	<section class="blog-area py-4">
+	<section class="blog-area mb-8">
 		<div class="site-container">
-			<h4 class="title fw-bold mb-3">Get inspiration for your next trip</h4>
+			<h4 class="title font-bold mb-4">Get inspiration for your next trip</h4>
 
-			<div class="blogs">
-				<div class="row">
-					<div class="col-12 col-sm-6 col-md-4">
-						<div class="grid-card rounded-1">
-							<a href="#" class="text-light">
-								<img src="https://cf.bstatic.com/xdata/images/city/540x270/835269.webp?k=d413877e2d120918ecab1c13290fbffa76e1a06f0dbf87df3cdd0cf882059964&o="
-									class="card-img" alt="..." />
-								<div class="card-img-overlay d-flex flex-column justify-content-end align-items-start">
-									<h5 class="card-title text-white fw-bold">
-										6 must-see historic towns and cities in Brazil
-									</h5>
-									<p class="excerpt">
-										Featuring captivating old towns, gold-painted statues and
-										epic carnivals.
-									</p>
-								</div>
-							</a>
+			<div class="blogs columns-1 md:columns-3 gap-2 mb-2">
+				<div class="blog mb-2 md:mb-0">
+					<div class="grid-card rounded-1 h-52 md:h-80">
+						<img class="card-img object-cover w-full h-full"
+							src="https://cf.bstatic.com/xdata/images/city/540x270/835269.webp?k=d413877e2d120918ecab1c13290fbffa76e1a06f0dbf87df3cdd0cf882059964&o="
+							alt="..." />
+						<div class="card-img-overlay flex flex-col justify-end items-start bottom-0">
+							<h5 class="card-title text-white text-xl font-bold">
+								<a href="#">6 must-see historic towns and cities in Brazil</a>
+							</h5>
+							<p class="excerpt text-sm text-white mt-[5px]">
+								Featuring captivating old towns, gold-painted statues and
+								epic carnivals.
+							</p>
 						</div>
 					</div>
+				</div>
 
-					<div class="col-12 col-sm-6 col-md-4">
-						<div class="grid-card rounded-1">
-							<a href="#" class="text-light">
-								<img src="https://cf.bstatic.com/xdata/images/xphoto/540x405/180173480.webp?k=6ea6aa39bf8daaf82862915b72888bcf8ce68f0641053f336fcdd9d842b29d9d&o="
-									class="card-img" alt="..." />
-								<div class="card-img-overlay d-flex flex-column justify-content-end align-items-start">
-									<h5 class="card-title text-white fw-bold">
-										Europe’s 10 most festive Christmas markets
-									</h5>
-									<p class="excerpt">
-										Enjoy potent mulled wine in Salzburg and sugar-dusted
-										gingerbread in Valkenburg.
-									</p>
-								</div>
-							</a>
+				<div class="blog mb-2 md:mb-0">
+					<div class="grid-card rounded-1 h-52 md:h-80">
+						<img class="card-img object-cover w-full h-full"
+							src="https://cf.bstatic.com/xdata/images/xphoto/540x405/180173480.webp?k=6ea6aa39bf8daaf82862915b72888bcf8ce68f0641053f336fcdd9d842b29d9d&o="
+							alt="..." />
+						<div class="card-img-overlay flex flex-col justify-end items-start bottom-0">
+							<h5 class="card-title text-white text-xl font-bold">
+								<a href="#">Europe’s 10 most festive Christmas markets</a>
+							</h5>
+							<p class="excerpt text-sm text-white mt-[5px]">
+								Enjoy potent mulled wine in Salzburg and sugar-dusted
+								gingerbread in Valkenburg.
+							</p>
 						</div>
 					</div>
+				</div>
 
-					<div class="col-12 col-sm-6 col-md-4">
-						<div class="grid-card rounded-1">
-							<a href="#" class="text-light">
-								<img src="https://cf.bstatic.com/xdata/images/xphoto/540x405/179387104.webp?k=3c39d24e157347fdd5f7784bca95a09c8c27627b97ac58f70e5965dabc70f2d2&o="
-									class="card-img" alt="..." />
-								<div class="card-img-overlay d-flex flex-column justify-content-end align-items-start">
-									<h5 class="card-title text-white fw-bold">
-										48 hours in Barcelona, Spain
-									</h5>
-									<p class="excerpt">
-										Featuring captivating old towns, gold-painted statues and
-										epic carnivals.
-									</p>
-								</div>
-							</a>
+				<div class="blog">
+					<div class="grid-card rounded-1 h-52 md:h-80">
+						<img class="card-img object-cover w-full h-full"
+							src="https://cf.bstatic.com/xdata/images/xphoto/540x405/179387104.webp?k=3c39d24e157347fdd5f7784bca95a09c8c27627b97ac58f70e5965dabc70f2d2&o="
+							alt="..." />
+						<div class="card-img-overlay flex flex-col justify-end items-start bottom-0">
+							<h5 class="card-title text-white text-xl font-bold">
+								<a href="#">48 hours in Barcelona, Spain</a>
+							</h5>
+							<p class="excerpt text-sm text-white mt-[5px]">
+								Featuring captivating old towns, gold-painted statues and
+								epic carnivals.
+							</p>
 						</div>
 					</div>
+				</div>
+			</div>
 
-					<div class="col-12 col-sm-6">
-						<div class="grid-card rounded-1">
-							<a href="#" class="text-light">
-								<img src="https://cf.bstatic.com/xdata/images/xphoto/540x405/178896679.webp?k=21164af35fafc549296411e1e8d912043e1e5b4bff25b597e573df634caec7d9&o="
-									class="card-img" alt="..." />
-								<div class="card-img-overlay d-flex flex-column justify-content-end align-items-start">
-									<h5 class="card-title text-white fw-bold">
-										7 incredible UNESCO World Heritage sites in India
-									</h5>
-									<p class="excerpt">
-										Bewitching landscapes, holy temples and the candlelit
-										banks of sacred rivers.
-									</p>
-								</div>
-							</a>
+			<div class="blogs columns-1 md:columns-2 gap-2">
+				<div class="blog mb-2 md:mb-0">
+					<div class="grid-card rounded-1 h-52 md:h-80">
+						<img class="card-img object-cover w-full h-full"
+							src="https://cf.bstatic.com/xdata/images/xphoto/540x405/178896679.webp?k=21164af35fafc549296411e1e8d912043e1e5b4bff25b597e573df634caec7d9&o="
+							alt="..." />
+						<div class="card-img-overlay flex flex-col justify-end items-start bottom-0">
+							<h5 class="card-title text-white text-xl font-bold">
+								<a href="#">7 incredible UNESCO World Heritage sites in India</a>
+							</h5>
+							<p class="excerpt text-sm text-white mt-[5px]">
+								Bewitching landscapes, holy temples and the candlelit
+								banks of sacred rivers.
+							</p>
 						</div>
 					</div>
+				</div>
 
-					<div class="col-12 col-sm-6">
-						<div class="grid-card rounded-1">
-							<a href="#" class="text-light">
-								<img src="https://cf.bstatic.com/xdata/images/xphoto/540x405/177969876.webp?k=86fa40fd3854833d1454959cda97f034740bc5013f760c637fb12abe821790f3&o="
-									class="card-img" alt="..." />
-								<div class="card-img-overlay d-flex flex-column justify-content-end align-items-start">
-									<h5 class="card-title text-white fw-bold">
-										How to explore your creative side in London
-									</h5>
-									<p class="excerpt">
-										Fire up your imagination in London with these creative
-										activities.
-									</p>
-								</div>
-							</a>
+				<div class="blog">
+					<div class="grid-card rounded-1 h-52 md:h-80">
+						<img class="card-img object-cover w-full h-full"
+							src="https://cf.bstatic.com/xdata/images/xphoto/540x405/177969876.webp?k=86fa40fd3854833d1454959cda97f034740bc5013f760c637fb12abe821790f3&o="
+							alt="..." />
+						<div class="card-img-overlay flex flex-col justify-end items-start bottom-0">
+							<h5 class="card-title text-white text-xl font-bold">
+								<a href="#">How to explore your creative side in London</a>
+							</h5>
+							<p class="excerpt text-sm text-white mt-[5px]">
+								Fire up your imagination in London with these creative
+								activities.
+							</p>
 						</div>
 					</div>
 				</div>
@@ -1577,64 +1473,64 @@
 	</section>
 
 	<!-- communities -->
-	<section class="communities-area py-4">
+	<section class="communities-area mb-8">
 		<div class="site-container">
-			<h4 class="title fw-bold mb-3">Connect with other travellers</h4>
+			<h4 class="title font-bold mb-4">Connect with other travellers</h4>
 
 			<div class="communities">
-				<div class="row">
-					<div class="col-12 col-sm-6 col-md-3 mb-3">
+				<div class="columns-2 md:columns-4">
+					<div class="w-full">
 						<a href="" class="community text-dark">
-							<div class="community-thumbnail ratio ratio-1x1 mb-3">
+							<div class="community-thumbnail aspect-square mb-3">
 								<img src="https://cf.bstatic.com/static/img/communities/cover-photo/300x300/india/a047bf294ce2d2e145fdcdd3097b9a7f4e6df229.jpg"
 									alt="" />
 							</div>
-							<h6 class="community-title fw-bold mb-0">India</h6>
-							<div class="community-meta d-flex flex-column align-items-start justify-content-start">
-								<span class="category">Travel Community</span>
-								<span class="members"> 155,073 travellers</span>
+							<h6 class="community-title font-bold mb-0">India</h6>
+							<div class="community-meta flex flex-col items-start justify-content-start">
+								<span class="category text-sm text-[#6b6b6b]">Travel Community</span>
+								<span class="members text-sm text-[#6b6b6b]"> 155,073 travellers</span>
 							</div>
 						</a>
 					</div>
 
-					<div class="col-12 col-sm-6 col-md-3 mb-3">
+					<div class="w-full">
 						<a href="" class="community text-dark">
-							<div class="community-thumbnail ratio ratio-1x1 mb-3">
+							<div class="community-thumbnail aspect-square mb-3">
 								<img src="https://cf.bstatic.com/static/img/communities/cover-photo/300x300/india/a047bf294ce2d2e145fdcdd3097b9a7f4e6df229.jpg"
 									alt="" />
 							</div>
-							<h6 class="community-title fw-bold mb-0">India</h6>
-							<div class="community-meta d-flex flex-column align-items-start justify-content-start">
-								<span class="category">Travel Community</span>
-								<span class="members"> 155,073 travellers</span>
+							<h6 class="community-title font-bold mb-0">India</h6>
+							<div class="community-meta flex flex-col items-start justify-content-start">
+								<span class="category text-sm text-[#6b6b6b]">Travel Community</span>
+								<span class="members text-sm text-[#6b6b6b]"> 155,073 travellers</span>
 							</div>
 						</a>
 					</div>
 
-					<div class="col-12 col-sm-6 col-md-3 mb-3">
+					<div class="w-full">
 						<a href="" class="community text-dark">
-							<div class="community-thumbnail ratio ratio-1x1 mb-3">
+							<div class="community-thumbnail aspect-square mb-3">
 								<img src="https://cf.bstatic.com/static/img/communities/cover-photo/300x300/india/a047bf294ce2d2e145fdcdd3097b9a7f4e6df229.jpg"
 									alt="" />
 							</div>
-							<h6 class="community-title fw-bold mb-0">India</h6>
-							<div class="community-meta d-flex flex-column align-items-start justify-content-start">
-								<span class="category">Travel Community</span>
-								<span class="members"> 155,073 travellers</span>
+							<h6 class="community-title font-bold mb-0">India</h6>
+							<div class="community-meta flex flex-col items-start justify-content-start">
+								<span class="category text-sm text-[#6b6b6b]">Travel Community</span>
+								<span class="members text-sm text-[#6b6b6b]"> 155,073 travellers</span>
 							</div>
 						</a>
 					</div>
 
-					<div class="col-12 col-sm-6 col-md-3 mb-3">
+					<div class="w-full">
 						<a href="" class="community text-dark">
-							<div class="community-thumbnail ratio ratio-1x1 mb-3">
+							<div class="community-thumbnail aspect-square mb-3">
 								<img src="https://cf.bstatic.com/static/img/communities/cover-photo/300x300/india/a047bf294ce2d2e145fdcdd3097b9a7f4e6df229.jpg"
 									alt="" />
 							</div>
-							<h6 class="community-title fw-bold mb-0">India</h6>
-							<div class="community-meta d-flex flex-column align-items-start justify-content-start">
-								<span class="category">Travel Community</span>
-								<span class="members"> 155,073 travellers</span>
+							<h6 class="community-title font-bold mb-0">India</h6>
+							<div class="community-meta flex flex-col items-start justify-content-start">
+								<span class="category text-sm text-[#6b6b6b]">Travel Community</span>
+								<span class="members text-sm text-[#6b6b6b]"> 155,073 travellers</span>
 							</div>
 						</a>
 					</div>
@@ -1646,24 +1542,23 @@
 	<!-- CTA -->
 	<section class="cta py-4">
 		<div class="site-container">
-			<div class="card rounded-1">
+			<div class="card flex items-center justify-center rounded-sm">
 				<img src="https://cf.bstatic.com/static/img/genius-banner-world-bg/2b5cdbad7b92073bc396b8b59d0bb421b3a01cba.png"
 					alt="..." />
-				<div
-					class="card-img-overlay d-flex flex-column justify-content-center flex-md-row align-items-center justify-content-md-start">
-					<div class="cta-img ratio ratio-1x1 me-md-3">
+				<div class="card-img-overlay flex flex-col justify-center items-center md:flex-row md:justify-start">
+					<div class="cta-img aspect-square me-md-3 w-40">
 						<img src="https://cf.bstatic.com/static/img/genius-globe-with-badge_desktop/d807514761b3684aedebced9265c5548a063b7a0.png"
 							alt="" />
 					</div>
-					<div class="cta-content text-center text-md-start">
-						<h4 class="card-title fw-bold">Get instant discounts</h4>
-						<p class="card-text">
+					<div class="cta-content text-center md:text-start">
+						<h4 class="card-title font-bold text-2xl">Get instant discounts</h4>
+						<p class="card-text mt-1 mb-4">
 							Simply sign into your Booking.com account and look for the blue
 							Genius logo to save
 						</p>
 						<div class="card-btn">
-							<a href="#" class="btn sign-in-btn">Sign in</a>
-							<a href="#" class="btn register-btn">Register</a>
+							<a href="#" class="cta-btn sign-in-btn border border-btnbg">Sign in</a>
+							<a href="#" class="cta-btn register-btn ml-2">Register</a>
 						</div>
 					</div>
 				</div>
@@ -1674,11 +1569,11 @@
 	<!-- destinations -->
 	<section class="destinations py-4">
 		<div class="site-container">
-			<h4 class="title fw-bold mb-3">Destinations we love</h4>
+			<h4 class="title font-bold mb-4">Destinations we love</h4>
 
-			<ul class="nav nav-pills mb-3" id="destination-categories" role="tablist">
-				<li class="nav-item me-1" role="presentation">
-					<button class="nav-link active" id="regions-tab" data-bs-toggle="pill" data-bs-target="#regions"
+			<ul class="nav-tabs flex items-center justify-start gap-4" id="destination-categories" role="tablist">
+				<li class="nav-item active me-1" role="presentation">
+					<button class="nav-tab-btn" id="regions-tab" data-bs-toggle="pill" data-bs-target="#regions"
 						type="button" role="tab" aria-controls="regions" aria-controls="regions" aria-selected="true">
 						<i class="bi bi-bicycle"></i>
 						Regions
@@ -1686,7 +1581,7 @@
 				</li>
 
 				<li class="nav-item me-1" role="presentation">
-					<button class="nav-link" id="cities-tab" data-bs-toggle="pill" data-bs-target="#cities"
+					<button class="nav-tab-btn" id="cities-tab" data-bs-toggle="pill" data-bs-target="#cities"
 						type="button" role="tab" aria-controls="cities" aria-selected="false">
 						<i class="bi bi-building"></i>
 						Cities
@@ -1694,7 +1589,7 @@
 				</li>
 
 				<li class="nav-item me-1" role="presentation">
-					<button class="nav-link" id="poi-tab" data-bs-toggle="pill" data-bs-target="#poi" type="button"
+					<button class="nav-tab-btn" id="poi-tab" data-bs-toggle="pill" data-bs-target="#poi" type="button"
 						role="tab" aria-controls="poi" aria-selected="false">
 						<i class="bi bi-water"></i>
 						Points of interest
@@ -1702,512 +1597,632 @@
 				</li>
 			</ul>
 
-			<div class="tab-content" id="destinationCategoriesContent">
-				<div class="tab-pane fade show active" id="regions" role="tabpanel" aria-labelledby="regions-tab"
-					tabindex="0">
-					<ul class="regions row row-cols-lg-5">
-						<li class="col-6 col-sm-6 col-md-4 col-lg">
-							<ul class="regions-list list-style-none">
+			<div class="tab-content destinations-tab-content mt-4" id="destinationCategoriesContent">
+				<div class="tab-pane active" id="regions" role="tabpanel" aria-labelledby="regions-tab" tabindex="0">
+					<div class="regions columns-2 sm:columns-3 md:columns-5 gap-2 ">
+						<div class="region mb-2 h-full lg:mb-0">
+							<ul class="region-list">
 								<li class="mt-3">
-									<a href="#" class="region-name fw-semibold text-dark d-block">
-										Phuket Province
-									</a>
-									<span class="region-property-count">5,502 properties</span>
+									<p>
+										<a href="#" class="region-name">
+											Phuket Province
+										</a>
+										<span class="region-property-count">5,502 properties</span>
+									</p>
 								</li>
 								<li class="mt-3">
-									<a href="#" class="region-name fw-semibold text-dark d-block">
-										Phuket Province
-									</a>
-									<span class="region-property-count">5,502 properties</span>
+									<p>
+										<a href="#" class="region-name">
+											Phuket Province
+										</a>
+										<span class="region-property-count">5,502 properties</span>
+									</p>
 								</li>
 								<li class="mt-3">
-									<a href="#" class="region-name fw-semibold text-dark d-block">
-										Phuket Province
-									</a>
-									<span class="region-property-count">5,502 properties</span>
+									<p>
+										<a href="#" class="region-name">
+											Phuket Province
+										</a>
+										<span class="region-property-count">5,502 properties</span>
+									</p>
 								</li>
 								<li class="mt-3">
-									<a href="#" class="region-name fw-semibold text-dark d-block">
-										Phuket Province
-									</a>
-									<span class="region-property-count">5,502 properties</span>
+									<p>
+										<a href="#" class="region-name">
+											Phuket Province
+										</a>
+										<span class="region-property-count">5,502 properties</span>
+									</p>
 								</li>
 								<li class="mt-3">
-									<a href="#" class="region-name fw-semibold text-dark d-block">
-										Phuket Province
-									</a>
-									<span class="region-property-count">5,502 properties</span>
-								</li>
-							</ul>
-						</li>
-						<li class="col-6 col-sm-6 col-md-4 col-lg">
-							<ul class="regions-list list-style-none">
-								<li class="mt-3">
-									<a href="#" class="region-name fw-semibold text-dark d-block">
-										Phuket Province
-									</a>
-									<span class="region-property-count">5,502 properties</span>
-								</li>
-								<li class="mt-3">
-									<a href="#" class="region-name fw-semibold text-dark d-block">
-										Phuket Province
-									</a>
-									<span class="region-property-count">5,502 properties</span>
-								</li>
-								<li class="mt-3">
-									<a href="#" class="region-name fw-semibold text-dark d-block">
-										Phuket Province
-									</a>
-									<span class="region-property-count">5,502 properties</span>
-								</li>
-								<li class="mt-3">
-									<a href="#" class="region-name fw-semibold text-dark d-block">
-										Phuket Province
-									</a>
-									<span class="region-property-count">5,502 properties</span>
-								</li>
-								<li class="mt-3">
-									<a href="#" class="region-name fw-semibold text-dark d-block">
-										Phuket Province
-									</a>
-									<span class="region-property-count">5,502 properties</span>
+									<p>
+										<a href="#" class="region-name">
+											Phuket Province
+										</a>
+										<span class="region-property-count">5,502 properties</span>
+									</p>
 								</li>
 							</ul>
-						</li>
-						<li class="col-6 col-sm-6 col-md-4 col-lg d-none d-md-block">
-							<ul class="regions-list list-style-none">
+						</div>
+						<div class="region mb-2 h-full lg:mb-0">
+							<ul class="region-list">
 								<li class="mt-3">
-									<a href="#" class="region-name fw-semibold text-dark d-block">
-										Phuket Province
-									</a>
-									<span class="region-property-count">5,502 properties</span>
+									<p>
+										<a href="#" class="region-name">
+											Phuket Province
+										</a>
+										<span class="region-property-count">5,502 properties</span>
+									</p>
 								</li>
 								<li class="mt-3">
-									<a href="#" class="region-name fw-semibold text-dark d-block">
-										Phuket Province
-									</a>
-									<span class="region-property-count">5,502 properties</span>
+									<p>
+										<a href="#" class="region-name">
+											Phuket Province
+										</a>
+										<span class="region-property-count">5,502 properties</span>
+									</p>
 								</li>
 								<li class="mt-3">
-									<a href="#" class="region-name fw-semibold text-dark d-block">
-										Phuket Province
-									</a>
-									<span class="region-property-count">5,502 properties</span>
+									<p>
+										<a href="#" class="region-name">
+											Phuket Province
+										</a>
+										<span class="region-property-count">5,502 properties</span>
 								</li>
+								</p>
 								<li class="mt-3">
-									<a href="#" class="region-name fw-semibold text-dark d-block">
-										Phuket Province
-									</a>
-									<span class="region-property-count">5,502 properties</span>
-								</li>
-								<li class="mt-3">
-									<a href="#" class="region-name fw-semibold text-dark d-block">
-										Phuket Province
-									</a>
-									<span class="region-property-count">5,502 properties</span>
-								</li>
-							</ul>
-						</li>
-						<li class="col-6 col-sm-6 col-md-4 col-lg d-none d-lg-block">
-							<ul class="regions-list list-style-none">
-								<li class="mt-3">
-									<a href="#" class="region-name fw-semibold text-dark d-block">
-										Phuket Province
-									</a>
-									<span class="region-property-count">5,502 properties</span>
-								</li>
-								<li class="mt-3">
-									<a href="#" class="region-name fw-semibold text-dark d-block">
-										Phuket Province
-									</a>
-									<span class="region-property-count">5,502 properties</span>
-								</li>
-								<li class="mt-3">
-									<a href="#" class="region-name fw-semibold text-dark d-block">
-										Phuket Province
-									</a>
-									<span class="region-property-count">5,502 properties</span>
-								</li>
-								<li class="mt-3">
-									<a href="#" class="region-name fw-semibold text-dark d-block">
-										Phuket Province
-									</a>
-									<span class="region-property-count">5,502 properties</span>
-								</li>
-								<li class="mt-3">
-									<a href="#" class="region-name fw-semibold text-dark d-block">
-										Phuket Province
-									</a>
-									<span class="region-property-count">5,502 properties</span>
+									<p>
+										<a href="#" class="region-name">
+											Phuket Province
+										</a>
+										<span class="region-property-count">5,502 properties</span>
+									</p>
 								</li>
 							</ul>
-						</li>
-						<li class="col-6 col-sm-6 col-md-4 col-lg d-none d-lg-block">
-							<ul class="regions-list list-style-none">
+						</div>
+						<div class="region mb-2 h-full lg:mb-0 hidden md:block">
+							<ul class="region-list">
+
 								<li class="mt-3">
-									<a href="#" class="region-name fw-semibold text-dark d-block">
-										Phuket Province
-									</a>
-									<span class="region-property-count">5,502 properties</span>
+									<p>
+										<a href="#" class="region-name">
+											Phuket Province
+										</a>
+										<span class="region-property-count">5,502 properties</span>
+									</p>
 								</li>
 								<li class="mt-3">
-									<a href="#" class="region-name fw-semibold text-dark d-block">
-										Phuket Province
-									</a>
-									<span class="region-property-count">5,502 properties</span>
+									<p>
+										<a href="#" class="region-name">
+											Phuket Province
+										</a>
+										<span class="region-property-count">5,502 properties</span>
+									</p>
 								</li>
 								<li class="mt-3">
-									<a href="#" class="region-name fw-semibold text-dark d-block">
-										Phuket Province
-									</a>
-									<span class="region-property-count">5,502 properties</span>
+									<p>
+										<a href="#" class="region-name">
+											Phuket Province
+										</a>
+										<span class="region-property-count">5,502 properties</span>
+									</p>
 								</li>
 								<li class="mt-3">
-									<a href="#" class="region-name fw-semibold text-dark d-block">
-										Phuket Province
-									</a>
-									<span class="region-property-count">5,502 properties</span>
-								</li>
-								<li class="mt-3">
-									<a href="#" class="region-name fw-semibold text-dark d-block">
-										Phuket Province
-									</a>
-									<span class="region-property-count">5,502 properties</span>
+									<p>
+										<a href="#" class="region-name">
+											Phuket Province
+										</a>
+										<span class="region-property-count">5,502 properties</span>
+									</p>
 								</li>
 							</ul>
-						</li>
-					</ul>
+						</div>
+						<div class="region mb-2 h-full lg:mb-0 hidden lg:block">
+							<ul class="region-list">
+
+								<li class="mt-3">
+									<p>
+										<a href="#" class="region-name">
+											Phuket Province
+										</a>
+										<span class="region-property-count">5,502 properties</span>
+									</p>
+								</li>
+								<li class="mt-3">
+									<p>
+										<a href="#" class="region-name">
+											Phuket Province
+										</a>
+										<span class="region-property-count">5,502 properties</span>
+									</p>
+								</li>
+								<li class="mt-3">
+									<p>
+										<a href="#" class="region-name">
+											Phuket Province
+										</a>
+										<span class="region-property-count">5,502 properties</span>
+									</p>
+								</li>
+								<li class="mt-3">
+									<p>
+										<a href="#" class="region-name">
+											Phuket Province
+										</a>
+										<span class="region-property-count">5,502 properties</span>
+									</p>
+								</li>
+							</ul>
+						</div>
+						<div class="region mb-2 h-full lg:mb-0 hidden lg:block">
+							<ul class="region-list">
+								<li class="mt-3">
+									<p>
+										<a href="#" class="region-name">
+											Phuket Province
+										</a>
+										<span class="region-property-count">5,502 properties</span>
+									</p>
+								</li>
+								<li class="mt-3">
+									<p>
+										<a href="#" class="region-name">
+											Phuket Province
+										</a>
+										<span class="region-property-count">5,502 properties</span>
+									</p>
+								</li>
+								<li class="mt-3">
+									<p>
+										<a href="#" class="region-name">
+											Phuket Province
+										</a>
+										<span class="region-property-count">5,502 properties</span>
+									</p>
+								</li>
+								<li class="mt-3">
+									<p>
+										<a href="#" class="region-name">
+											Phuket Province
+										</a>
+										<span class="region-property-count">5,502 properties</span>
+									</p>
+								</li>
+								<li class="mt-3">
+									<p>
+										<a href="#" class="region-name">
+											Phuket Province
+										</a>
+										<span class="region-property-count">5,502 properties</span>
+									</p>
+								</li>
+							</ul>
+						</div>
+					</div>
 				</div>
 
-				<div class="tab-pane fade" id="cities" role="tabpanel" aria-labelledby="cities-tab" tabindex="0">
-					<ul class="regions row">
-						<li class="col-6 col-sm-6 col-md-4 col-lg-3">
-							<ul class="regions-list list-style-none">
+				<div class="tab-pane" id="cities" role="tabpanel" aria-labelledby="regions-tab" tabindex="0">
+					<div class="regions columns-2 sm:columns-3 md:columns-5 gap-2 ">
+						<div class="region mb-2 h-full lg:mb-0">
+							<ul class="region-list">
 								<li class="mt-3">
-									<a href="#" class="region-name fw-semibold text-dark d-block">
-										Phuket Province
-									</a>
-									<span class="region-property-count">5,502 properties</span>
+									<p>
+										<a href="#" class="region-name">
+											Phuket Province
+										</a>
+										<span class="region-property-count">5,502 properties</span>
+									</p>
 								</li>
 								<li class="mt-3">
-									<a href="#" class="region-name fw-semibold text-dark d-block">
-										Phuket Province
-									</a>
-									<span class="region-property-count">5,502 properties</span>
+									<p>
+										<a href="#" class="region-name">
+											Phuket Province
+										</a>
+										<span class="region-property-count">5,502 properties</span>
+									</p>
 								</li>
 								<li class="mt-3">
-									<a href="#" class="region-name fw-semibold text-dark d-block">
-										Phuket Province
-									</a>
-									<span class="region-property-count">5,502 properties</span>
+									<p>
+										<a href="#" class="region-name">
+											Phuket Province
+										</a>
+										<span class="region-property-count">5,502 properties</span>
+									</p>
 								</li>
 								<li class="mt-3">
-									<a href="#" class="region-name fw-semibold text-dark d-block">
-										Phuket Province
-									</a>
-									<span class="region-property-count">5,502 properties</span>
+									<p>
+										<a href="#" class="region-name">
+											Phuket Province
+										</a>
+										<span class="region-property-count">5,502 properties</span>
+									</p>
 								</li>
 								<li class="mt-3">
-									<a href="#" class="region-name fw-semibold text-dark d-block">
-										Phuket Province
-									</a>
-									<span class="region-property-count">5,502 properties</span>
-								</li>
-							</ul>
-						</li>
-						<li class="col-6 col-sm-6 col-md-4 col-lg-3">
-							<ul class="regions-list list-style-none">
-								<li class="mt-3">
-									<a href="#" class="region-name fw-semibold text-dark d-block">
-										Phuket Province
-									</a>
-									<span class="region-property-count">5,502 properties</span>
-								</li>
-								<li class="mt-3">
-									<a href="#" class="region-name fw-semibold text-dark d-block">
-										Phuket Province
-									</a>
-									<span class="region-property-count">5,502 properties</span>
-								</li>
-								<li class="mt-3">
-									<a href="#" class="region-name fw-semibold text-dark d-block">
-										Phuket Province
-									</a>
-									<span class="region-property-count">5,502 properties</span>
-								</li>
-								<li class="mt-3">
-									<a href="#" class="region-name fw-semibold text-dark d-block">
-										Phuket Province
-									</a>
-									<span class="region-property-count">5,502 properties</span>
-								</li>
-								<li class="mt-3">
-									<a href="#" class="region-name fw-semibold text-dark d-block">
-										Phuket Province
-									</a>
-									<span class="region-property-count">5,502 properties</span>
+									<p>
+										<a href="#" class="region-name">
+											Phuket Province
+										</a>
+										<span class="region-property-count">5,502 properties</span>
+									</p>
 								</li>
 							</ul>
-						</li>
-						<li class="col-6 col-sm-6 col-md-4 col-lg-3 d-none d-md-block">
-							<ul class="regions-list list-style-none">
+						</div>
+						<div class="region mb-2 h-full lg:mb-0">
+							<ul class="region-list">
 								<li class="mt-3">
-									<a href="#" class="region-name fw-semibold text-dark d-block">
-										Phuket Province
-									</a>
-									<span class="region-property-count">5,502 properties</span>
+									<p>
+										<a href="#" class="region-name">
+											Phuket Province
+										</a>
+										<span class="region-property-count">5,502 properties</span>
+									</p>
 								</li>
 								<li class="mt-3">
-									<a href="#" class="region-name fw-semibold text-dark d-block">
-										Phuket Province
-									</a>
-									<span class="region-property-count">5,502 properties</span>
+									<p>
+										<a href="#" class="region-name">
+											Phuket Province
+										</a>
+										<span class="region-property-count">5,502 properties</span>
+									</p>
 								</li>
 								<li class="mt-3">
-									<a href="#" class="region-name fw-semibold text-dark d-block">
-										Phuket Province
-									</a>
-									<span class="region-property-count">5,502 properties</span>
+									<p>
+										<a href="#" class="region-name">
+											Phuket Province
+										</a>
+										<span class="region-property-count">5,502 properties</span>
+									</p>
 								</li>
 								<li class="mt-3">
-									<a href="#" class="region-name fw-semibold text-dark d-block">
-										Phuket Province
-									</a>
-									<span class="region-property-count">5,502 properties</span>
-								</li>
-								<li class="mt-3">
-									<a href="#" class="region-name fw-semibold text-dark d-block">
-										Phuket Province
-									</a>
-									<span class="region-property-count">5,502 properties</span>
-								</li>
-							</ul>
-						</li>
-						<li class="col-6 col-sm-6 col-md-4 col-lg-3 d-none d-lg-block">
-							<ul class="regions-list list-style-none">
-								<li class="mt-3">
-									<a href="#" class="region-name fw-semibold text-dark d-block">
-										Phuket Province
-									</a>
-									<span class="region-property-count">5,502 properties</span>
-								</li>
-								<li class="mt-3">
-									<a href="#" class="region-name fw-semibold text-dark d-block">
-										Phuket Province
-									</a>
-									<span class="region-property-count">5,502 properties</span>
-								</li>
-								<li class="mt-3">
-									<a href="#" class="region-name fw-semibold text-dark d-block">
-										Phuket Province
-									</a>
-									<span class="region-property-count">5,502 properties</span>
-								</li>
-								<li class="mt-3">
-									<a href="#" class="region-name fw-semibold text-dark d-block">
-										Phuket Province
-									</a>
-									<span class="region-property-count">5,502 properties</span>
-								</li>
-								<li class="mt-3">
-									<a href="#" class="region-name fw-semibold text-dark d-block">
-										Phuket Province
-									</a>
-									<span class="region-property-count">5,502 properties</span>
+									<p>
+										<a href="#" class="region-name">
+											Phuket Province
+										</a>
+										<span class="region-property-count">5,502 properties</span>
+									</p>
 								</li>
 							</ul>
-						</li>
-					</ul>
+						</div>
+						<div class="region mb-2 h-full lg:mb-0 hidden md:block">
+							<ul class="region-list">
+
+								<li class="mt-3">
+									<p>
+										<a href="#" class="region-name">
+											Phuket Province
+										</a>
+										<span class="region-property-count">5,502 properties</span>
+									</p>
+								</li>
+								<li class="mt-3">
+									<p>
+										<a href="#" class="region-name">
+											Phuket Province
+										</a>
+										<span class="region-property-count">5,502 properties</span>
+									</p>
+								</li>
+								<li class="mt-3">
+									<p>
+										<a href="#" class="region-name">
+											Phuket Province
+										</a>
+										<span class="region-property-count">5,502 properties</span>
+									</p>
+								</li>
+								<li class="mt-3">
+									<p>
+										<a href="#" class="region-name">
+											Phuket Province
+										</a>
+										<span class="region-property-count">5,502 properties</span>
+									</p>
+								</li>
+							</ul>
+						</div>
+						<div class="region mb-2 h-full lg:mb-0 hidden lg:block">
+							<ul class="region-list">
+
+								<li class="mt-3">
+									<p>
+										<a href="#" class="region-name">
+											Phuket Province
+										</a>
+										<span class="region-property-count">5,502 properties</span>
+									</p>
+								</li>
+								<li class="mt-3">
+									<p>
+										<a href="#" class="region-name">
+											Phuket Province
+										</a>
+										<span class="region-property-count">5,502 properties</span>
+									</p>
+								</li>
+								<li class="mt-3">
+									<p>
+										<a href="#" class="region-name">
+											Phuket Province
+										</a>
+										<span class="region-property-count">5,502 properties</span>
+									</p>
+								</li>
+								<li class="mt-3">
+									<p>
+										<a href="#" class="region-name">
+											Phuket Province
+										</a>
+										<span class="region-property-count">5,502 properties</span>
+									</p>
+								</li>
+							</ul>
+						</div>
+						<div class="region mb-2 h-full lg:mb-0 hidden lg:block">
+							<ul class="region-list">
+								<li class="mt-3">
+									<p>
+										<a href="#" class="region-name">
+											Phuket Province
+										</a>
+										<span class="region-property-count">5,502 properties</span>
+									</p>
+								</li>
+								<li class="mt-3">
+									<p>
+										<a href="#" class="region-name">
+											Phuket Province
+										</a>
+										<span class="region-property-count">5,502 properties</span>
+									</p>
+								</li>
+								<li class="mt-3">
+									<p>
+										<a href="#" class="region-name">
+											Phuket Province
+										</a>
+										<span class="region-property-count">5,502 properties</span>
+									</p>
+								</li>
+								<li class="mt-3">
+									<p>
+										<a href="#" class="region-name">
+											Phuket Province
+										</a>
+										<span class="region-property-count">5,502 properties</span>
+									</p>
+								</li>
+								<li class="mt-3">
+									<p>
+										<a href="#" class="region-name">
+											Phuket Province
+										</a>
+										<span class="region-property-count">5,502 properties</span>
+									</p>
+								</li>
+							</ul>
+						</div>
+					</div>
 				</div>
 
-				<div class="tab-pane fade" id="poi" role="tabpanel" aria-labelledby="poi-tab" tabindex="0">
-					<ul class="regions row row-cols-lg-5">
-						<li class="col-6 col-sm-6 col-md-4 col-lg">
-							<ul class="regions-list list-style-none">
+				<div class="tab-pane" id="poi" role="tabpanel" aria-labelledby="regions-tab" tabindex="0">
+					<div class="regions columns-2 sm:columns-3 md:columns-5 gap-2 ">
+						<div class="region mb-2 h-full lg:mb-0">
+							<ul class="region-list">
 								<li class="mt-3">
-									<a href="#" class="region-name fw-semibold text-dark d-block">
-										Phuket Province
-									</a>
-									<span class="region-property-count">5,502 properties</span>
+									<p>
+										<a href="#" class="region-name">
+											Phuket Province
+										</a>
+										<span class="region-property-count">5,502 properties</span>
+									</p>
 								</li>
 								<li class="mt-3">
-									<a href="#" class="region-name fw-semibold text-dark d-block">
-										Phuket Province
-									</a>
-									<span class="region-property-count">5,502 properties</span>
+									<p>
+										<a href="#" class="region-name">
+											Phuket Province
+										</a>
+										<span class="region-property-count">5,502 properties</span>
+									</p>
 								</li>
 								<li class="mt-3">
-									<a href="#" class="region-name fw-semibold text-dark d-block">
-										Phuket Province
-									</a>
-									<span class="region-property-count">5,502 properties</span>
+									<p>
+										<a href="#" class="region-name">
+											Phuket Province
+										</a>
+										<span class="region-property-count">5,502 properties</span>
+									</p>
 								</li>
 								<li class="mt-3">
-									<a href="#" class="region-name fw-semibold text-dark d-block">
-										Phuket Province
-									</a>
-									<span class="region-property-count">5,502 properties</span>
+									<p>
+										<a href="#" class="region-name">
+											Phuket Province
+										</a>
+										<span class="region-property-count">5,502 properties</span>
+									</p>
 								</li>
 								<li class="mt-3">
-									<a href="#" class="region-name fw-semibold text-dark d-block">
-										Phuket Province
-									</a>
-									<span class="region-property-count">5,502 properties</span>
-								</li>
-							</ul>
-						</li>
-						<li class="col-6 col-sm-6 col-md-4 col-lg">
-							<ul class="regions-list list-style-none">
-								<li class="mt-3">
-									<a href="#" class="region-name fw-semibold text-dark d-block">
-										Phuket Province
-									</a>
-									<span class="region-property-count">5,502 properties</span>
-								</li>
-								<li class="mt-3">
-									<a href="#" class="region-name fw-semibold text-dark d-block">
-										Phuket Province
-									</a>
-									<span class="region-property-count">5,502 properties</span>
-								</li>
-								<li class="mt-3">
-									<a href="#" class="region-name fw-semibold text-dark d-block">
-										Phuket Province
-									</a>
-									<span class="region-property-count">5,502 properties</span>
-								</li>
-								<li class="mt-3">
-									<a href="#" class="region-name fw-semibold text-dark d-block">
-										Phuket Province
-									</a>
-									<span class="region-property-count">5,502 properties</span>
-								</li>
-								<li class="mt-3">
-									<a href="#" class="region-name fw-semibold text-dark d-block">
-										Phuket Province
-									</a>
-									<span class="region-property-count">5,502 properties</span>
+									<p>
+										<a href="#" class="region-name">
+											Phuket Province
+										</a>
+										<span class="region-property-count">5,502 properties</span>
+									</p>
 								</li>
 							</ul>
-						</li>
-						<li class="col-6 col-sm-6 col-md-4 col-lg d-none d-md-block">
-							<ul class="regions-list list-style-none">
+						</div>
+						<div class="region mb-2 h-full lg:mb-0">
+							<ul class="region-list">
 								<li class="mt-3">
-									<a href="#" class="region-name fw-semibold text-dark d-block">
-										Phuket Province
-									</a>
-									<span class="region-property-count">5,502 properties</span>
+									<p>
+										<a href="#" class="region-name">
+											Phuket Province
+										</a>
+										<span class="region-property-count">5,502 properties</span>
+									</p>
 								</li>
 								<li class="mt-3">
-									<a href="#" class="region-name fw-semibold text-dark d-block">
-										Phuket Province
-									</a>
-									<span class="region-property-count">5,502 properties</span>
+									<p>
+										<a href="#" class="region-name">
+											Phuket Province
+										</a>
+										<span class="region-property-count">5,502 properties</span>
+									</p>
 								</li>
 								<li class="mt-3">
-									<a href="#" class="region-name fw-semibold text-dark d-block">
-										Phuket Province
-									</a>
-									<span class="region-property-count">5,502 properties</span>
+									<p>
+										<a href="#" class="region-name">
+											Phuket Province
+										</a>
+										<span class="region-property-count">5,502 properties</span>
+									</p>
 								</li>
 								<li class="mt-3">
-									<a href="#" class="region-name fw-semibold text-dark d-block">
-										Phuket Province
-									</a>
-									<span class="region-property-count">5,502 properties</span>
-								</li>
-								<li class="mt-3">
-									<a href="#" class="region-name fw-semibold text-dark d-block">
-										Phuket Province
-									</a>
-									<span class="region-property-count">5,502 properties</span>
-								</li>
-							</ul>
-						</li>
-						<li class="col-6 col-sm-6 col-md-4 col-lg d-none d-lg-block">
-							<ul class="regions-list list-style-none">
-								<li class="mt-3">
-									<a href="#" class="region-name fw-semibold text-dark d-block">
-										Phuket Province
-									</a>
-									<span class="region-property-count">5,502 properties</span>
-								</li>
-								<li class="mt-3">
-									<a href="#" class="region-name fw-semibold text-dark d-block">
-										Phuket Province
-									</a>
-									<span class="region-property-count">5,502 properties</span>
-								</li>
-								<li class="mt-3">
-									<a href="#" class="region-name fw-semibold text-dark d-block">
-										Phuket Province
-									</a>
-									<span class="region-property-count">5,502 properties</span>
-								</li>
-								<li class="mt-3">
-									<a href="#" class="region-name fw-semibold text-dark d-block">
-										Phuket Province
-									</a>
-									<span class="region-property-count">5,502 properties</span>
-								</li>
-								<li class="mt-3">
-									<a href="#" class="region-name fw-semibold text-dark d-block">
-										Phuket Province
-									</a>
-									<span class="region-property-count">5,502 properties</span>
+									<p>
+										<a href="#" class="region-name">
+											Phuket Province
+										</a>
+										<span class="region-property-count">5,502 properties</span>
+									</p>
 								</li>
 							</ul>
-						</li>
-						<li class="col-6 col-sm-6 col-md-4 col-lg d-none d-lg-block">
-							<ul class="regions-list list-style-none">
+						</div>
+						<div class="region mb-2 h-full lg:mb-0 hidden md:block">
+							<ul class="region-list">
+
 								<li class="mt-3">
-									<a href="#" class="region-name fw-semibold text-dark d-block">
-										Phuket Province
-									</a>
-									<span class="region-property-count">5,502 properties</span>
+									<p>
+										<a href="#" class="region-name">
+											Phuket Province
+										</a>
+										<span class="region-property-count">5,502 properties</span>
+									</p>
 								</li>
 								<li class="mt-3">
-									<a href="#" class="region-name fw-semibold text-dark d-block">
-										Phuket Province
-									</a>
-									<span class="region-property-count">5,502 properties</span>
+									<p>
+										<a href="#" class="region-name">
+											Phuket Province
+										</a>
+										<span class="region-property-count">5,502 properties</span>
+									</p>
 								</li>
 								<li class="mt-3">
-									<a href="#" class="region-name fw-semibold text-dark d-block">
-										Phuket Province
-									</a>
-									<span class="region-property-count">5,502 properties</span>
+									<p>
+										<a href="#" class="region-name">
+											Phuket Province
+										</a>
+										<span class="region-property-count">5,502 properties</span>
+									</p>
 								</li>
 								<li class="mt-3">
-									<a href="#" class="region-name fw-semibold text-dark d-block">
-										Phuket Province
-									</a>
-									<span class="region-property-count">5,502 properties</span>
-								</li>
-								<li class="mt-3">
-									<a href="#" class="region-name fw-semibold text-dark d-block">
-										Phuket Province
-									</a>
-									<span class="region-property-count">5,502 properties</span>
+									<p>
+										<a href="#" class="region-name">
+											Phuket Province
+										</a>
+										<span class="region-property-count">5,502 properties</span>
+									</p>
 								</li>
 							</ul>
-						</li>
-					</ul>
+						</div>
+						<div class="region mb-2 h-full lg:mb-0 hidden lg:block">
+							<ul class="region-list">
+
+								<li class="mt-3">
+									<p>
+										<a href="#" class="region-name">
+											Phuket Province
+										</a>
+										<span class="region-property-count">5,502 properties</span>
+									</p>
+								</li>
+								<li class="mt-3">
+									<p>
+										<a href="#" class="region-name">
+											Phuket Province
+										</a>
+										<span class="region-property-count">5,502 properties</span>
+									</p>
+								</li>
+								<li class="mt-3">
+									<p>
+										<a href="#" class="region-name">
+											Phuket Province
+										</a>
+										<span class="region-property-count">5,502 properties</span>
+									</p>
+								</li>
+								<li class="mt-3">
+									<p>
+										<a href="#" class="region-name">
+											Phuket Province
+										</a>
+										<span class="region-property-count">5,502 properties</span>
+									</p>
+								</li>
+							</ul>
+						</div>
+						<div class="region mb-2 h-full lg:mb-0 hidden lg:block">
+							<ul class="region-list">
+								<li class="mt-3">
+									<p>
+										<a href="#" class="region-name">
+											Phuket Province
+										</a>
+										<span class="region-property-count">5,502 properties</span>
+									</p>
+								</li>
+								<li class="mt-3">
+									<p>
+										<a href="#" class="region-name">
+											Phuket Province
+										</a>
+										<span class="region-property-count">5,502 properties</span>
+									</p>
+								</li>
+								<li class="mt-3">
+									<p>
+										<a href="#" class="region-name">
+											Phuket Province
+										</a>
+										<span class="region-property-count">5,502 properties</span>
+									</p>
+								</li>
+								<li class="mt-3">
+									<p>
+										<a href="#" class="region-name">
+											Phuket Province
+										</a>
+										<span class="region-property-count">5,502 properties</span>
+									</p>
+								</li>
+								<li class="mt-3">
+									<p>
+										<a href="#" class="region-name">
+											Phuket Province
+										</a>
+										<span class="region-property-count">5,502 properties</span>
+									</p>
+								</li>
+							</ul>
+						</div>
+					</div>
 				</div>
+
+
 			</div>
 		</div>
 	</section>
 
 	<!-- newsletter -->
-	<section class="newsletter text-center">
-		<div class="site-container py-5 px-5 px-md-3">
-			<p class="title mb-0">Save time, save money!</p>
-			<p class="subtitle">Sign up and we'll send the best deals to</p>
+	<section class="newsletter text-center text-white bg-[#00224f]">
+		<div class="site-container py-12 px-5">
+			<p class="title mb-0 text-2xl">Save time, save money!</p>
+			<p class="subtitle mb-5 text-[#bdbdbd]">Sign up and we'll send the best deals to</p>
 
 			<form action="" id="newsletterForm" class="newsletter-form">
-				<div class="form-group d-flex flex-column flex-md-row align-items-center justify-content-center">
-					<input type="email" name="emailID" id="emailID" class="form-control" placeholder="Your email" />
-					<button class="btn primary-btn fw-normal" type="submit">
+				<div class="form-group flex flex-col md:flex-row items-center justify-center gap-y-3 gap-x-1">
+					<input type="email" name="emailID" id="emailID" class="form-control p-[10px] md:w-3/4"
+						placeholder="Your email" />
+					<button class="btn primary-btn fw-normal px-4 md:w-1/4" type="submit">
 						Subscribe
 					</button>
 				</div>
@@ -2215,33 +2230,33 @@
 		</div>
 	</section>
 
-	<!-- cta 2 -->
 	<footer class="site-footer">
-		<div class="top-footer">
-			<div class="top-footer-btn text-center">
-				<a href="" class="btn">List your property</a>
+		<div class="top-footer bg-primary">
+			<div class="top-footer-btn text-center py-4 px-2 border-b border-white">
+				<a href=""
+					class="btn text-white text-sm px-5 border border-white leading-7 inline-block rounded-[3px] hover:bg-[#335d99]">List
+					your property</a>
 			</div>
 			<div class="top-footer-menu">
 				<div class="site-container">
-					<ul
-						class="top-footer-links ps-0 list-unstyled d-flex align-items-center justify-content-start flex-wrap">
+					<ul class="top-footer-links  list-none flex items-center justify-start flex-wrap gap-x-5">
 						<li>
-							<a href="#" class="top-footer-link fw-bold">Mobile version</a>
+							<a href="#" class="top-footer-link font-bold">Mobile version</a>
 						</li>
 						<li>
-							<a href="#" class="top-footer-link fw-bold">Your account</a>
+							<a href="#" class="top-footer-link font-bold">Your account</a>
 						</li>
 						<li>
-							<a href="#" class="top-footer-link fw-bold">Make changes to your booking online</a>
+							<a href="#" class="top-footer-link font-bold">Make changes to your booking online</a>
 						</li>
 						<li>
-							<a href="#" class="top-footer-link fw-bold">Customer Service help</a>
+							<a href="#" class="top-footer-link font-bold">Customer Service help</a>
 						</li>
 						<li>
-							<a href="#" class="top-footer-link fw-bold">Become an affiliate</a>
+							<a href="#" class="top-footer-link font-bold">Become an affiliate</a>
 						</li>
 						<li>
-							<a href="#" class="top-footer-link fw-bold">Booking.com for Business</a>
+							<a href="#" class="top-footer-link font-bold">Booking.com for Business</a>
 						</li>
 					</ul>
 				</div>
@@ -2251,150 +2266,150 @@
 		<div class="main-footer  mb-4">
 			<div class="site-container">
 				<div class="main-footer-menu">
-					<div class="row row-cols-lg-5">
-						<div class="col-6 col-md-4 col-lg">
-							<ul class="main-footer-links list-unstyled ps-0">
+					<div class="columns-2 sm:columns-3 md:columns-5 py-4">
+						<div class="">
+							<ul class="main-footer-links list-none ps-0">
 								<li class="main-footer-link">
-									<a href="#">Countries</a>
+									<a class="text-btnbg" href="#">Countries</a>
 								</li>
 								<li class="main-footer-link">
-									<a href="#">Regions</a>
+									<a class="text-btnbg" href="#">Regions</a>
 								</li>
 								<li class="main-footer-link">
-									<a href="#">Cities</a>
+									<a class="text-btnbg" href="#">Cities</a>
 								</li>
 								<li class="main-footer-link">
-									<a href="#">Districts</a>
+									<a class="text-btnbg" href="#">Districts</a>
 								</li>
 								<li class="main-footer-link">
-									<a href="#">Airports</a>
+									<a class="text-btnbg" href="#">Airports</a>
 								</li>
 								<li class="main-footer-link">
-									<a href="#">Hotels</a>
+									<a class="text-btnbg" href="#">Hotels</a>
 								</li>
 								<li class="main-footer-link">
-									<a href="#">Places of interest</a>
-								</li>
-							</ul>
-						</div>
-						<div class="col-6 col-md-4 col-lg">
-							<ul class="main-footer-links list-unstyled ps-0">
-								<li class="main-footer-link">
-									<a href="#">Countries</a>
-								</li>
-								<li class="main-footer-link">
-									<a href="#">Regions</a>
-								</li>
-								<li class="main-footer-link">
-									<a href="#">Cities</a>
-								</li>
-								<li class="main-footer-link">
-									<a href="#">Districts</a>
-								</li>
-								<li class="main-footer-link">
-									<a href="#">Airports</a>
-								</li>
-								<li class="main-footer-link">
-									<a href="#">Hotels</a>
-								</li>
-								<li class="main-footer-link">
-									<a href="#">Places of interest</a>
+									<a class="text-btnbg" href="#">Places of interest</a>
 								</li>
 							</ul>
 						</div>
-						<div class="col-6 col-md-4 col-lg">
-							<ul class="main-footer-links list-unstyled ps-0">
+						<div class="">
+							<ul class="main-footer-links list-none ps-0">
 								<li class="main-footer-link">
-									<a href="#">Countries</a>
+									<a class="text-btnbg" href="#">Countries</a>
 								</li>
 								<li class="main-footer-link">
-									<a href="#">Regions</a>
+									<a class="text-btnbg" href="#">Regions</a>
 								</li>
 								<li class="main-footer-link">
-									<a href="#">Cities</a>
+									<a class="text-btnbg" href="#">Cities</a>
 								</li>
 								<li class="main-footer-link">
-									<a href="#">Districts</a>
+									<a class="text-btnbg" href="#">Districts</a>
 								</li>
 								<li class="main-footer-link">
-									<a href="#">Airports</a>
+									<a class="text-btnbg" href="#">Airports</a>
 								</li>
 								<li class="main-footer-link">
-									<a href="#">Hotels</a>
+									<a class="text-btnbg" href="#">Hotels</a>
 								</li>
 								<li class="main-footer-link">
-									<a href="#">Places of interest</a>
-								</li>
-							</ul>
-						</div>
-						<div class="col-6 col-md-4 col-lg">
-							<ul class="main-footer-links list-unstyled ps-0">
-								<li class="main-footer-link">
-									<a href="#">Countries</a>
-								</li>
-								<li class="main-footer-link">
-									<a href="#">Regions</a>
-								</li>
-								<li class="main-footer-link">
-									<a href="#">Cities</a>
-								</li>
-								<li class="main-footer-link">
-									<a href="#">Districts</a>
-								</li>
-								<li class="main-footer-link">
-									<a href="#">Airports</a>
-								</li>
-								<li class="main-footer-link">
-									<a href="#">Hotels</a>
-								</li>
-								<li class="main-footer-link">
-									<a href="#">Places of interest</a>
+									<a class="text-btnbg" href="#">Places of interest</a>
 								</li>
 							</ul>
 						</div>
-						<div class="col-6 col-md-4 col-lg">
-							<ul class="main-footer-links list-unstyled ps-0">
+						<div class="">
+							<ul class="main-footer-links list-none ps-0">
 								<li class="main-footer-link">
-									<a href="#">Countries</a>
+									<a class="text-btnbg" href="#">Countries</a>
 								</li>
 								<li class="main-footer-link">
-									<a href="#">Regions</a>
+									<a class="text-btnbg" href="#">Regions</a>
 								</li>
 								<li class="main-footer-link">
-									<a href="#">Cities</a>
+									<a class="text-btnbg" href="#">Cities</a>
 								</li>
 								<li class="main-footer-link">
-									<a href="#">Districts</a>
+									<a class="text-btnbg" href="#">Districts</a>
 								</li>
 								<li class="main-footer-link">
-									<a href="#">Airports</a>
+									<a class="text-btnbg" href="#">Airports</a>
 								</li>
 								<li class="main-footer-link">
-									<a href="#">Hotels</a>
+									<a class="text-btnbg" href="#">Hotels</a>
 								</li>
 								<li class="main-footer-link">
-									<a href="#">Places of interest</a>
+									<a class="text-btnbg" href="#">Places of interest</a>
+								</li>
+							</ul>
+						</div>
+						<div class="">
+							<ul class="main-footer-links list-none ps-0">
+								<li class="main-footer-link">
+									<a class="text-btnbg" href="#">Countries</a>
+								</li>
+								<li class="main-footer-link">
+									<a class="text-btnbg" href="#">Regions</a>
+								</li>
+								<li class="main-footer-link">
+									<a class="text-btnbg" href="#">Cities</a>
+								</li>
+								<li class="main-footer-link">
+									<a class="text-btnbg" href="#">Districts</a>
+								</li>
+								<li class="main-footer-link">
+									<a class="text-btnbg" href="#">Airports</a>
+								</li>
+								<li class="main-footer-link">
+									<a class="text-btnbg" href="#">Hotels</a>
+								</li>
+								<li class="main-footer-link">
+									<a class="text-btnbg" href="#">Places of interest</a>
+								</li>
+							</ul>
+						</div>
+						<div class="">
+							<ul class="main-footer-links list-none ps-0">
+								<li class="main-footer-link">
+									<a class="text-btnbg" href="#">Countries</a>
+								</li>
+								<li class="main-footer-link">
+									<a class="text-btnbg" href="#">Regions</a>
+								</li>
+								<li class="main-footer-link">
+									<a class="text-btnbg" href="#">Cities</a>
+								</li>
+								<li class="main-footer-link">
+									<a class="text-btnbg" href="#">Districts</a>
+								</li>
+								<li class="main-footer-link">
+									<a class="text-btnbg" href="#">Airports</a>
+								</li>
+								<li class="main-footer-link">
+									<a class="text-btnbg" href="#">Hotels</a>
+								</li>
+								<li class="main-footer-link">
+									<a class="text-btnbg" href="#">Places of interest</a>
 								</li>
 							</ul>
 						</div>
 					</div>
 				</div>
 				<p class="main-footer-btn text-center mt-5 mb-0">
-					<a class="fw-bold" href="#">Extranet login</a>
+					<a class="py-4" href="#">Extranet login</a>
 				</p>
 			</div>
 		</div>
 
 		<div class="bottom-footer text-center">
 			<div class="site-container">
-				<p class="copyright-text mb-4">
+				<p class="copyright-text text-sm mb-4">
 					Copyright © 1996–2022 Booking.com™. All rights reserved.
 				</p>
-				<p class="about-text">
+				<p class="about-text text-sm mb-4">
 					Booking.com is part of Booking Holdings Inc., the world leader in
 					online travel and related services.
 				</p>
-				<ul class="subsidiaries-list d-flex align-items-center justify-content-center flex-wrap list-unstyled">
+				<ul class="subsidiaries-list py-4 flex items-center justify-center flex-wrap  list-none">
 					<li class="subsidiaries-list-item">
 						<img src="https://cf.bstatic.com/static/img/tfl/group_logos/logo_booking/27c8d1832de6a3123b6ee45b59ae2f81b0d9d0d0.png"
 							alt="">
